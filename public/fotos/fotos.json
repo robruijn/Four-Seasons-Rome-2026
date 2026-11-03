@@ -1,1 +1,634 @@
-{}
+{
+  "san_clemente": [
+    {
+      "bestand": "san_clemente-1",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "San Clemente Pier HD by Don Ramey Logan",
+      "alt": "San Clemente Pier HD by Don Ramey Logan",
+      "maker": "Don Ramey Logan",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:San_Clemente_Pier_HD_by_Don_Ramey_Logan.jpg",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "san_clemente-2",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Basilica di San Clemente al Laterano - interno",
+      "alt": "Basilica di San Clemente al Laterano - interno",
+      "maker": "Ninfamania",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Basilica_di_San_Clemente_al_Laterano_-_interno.jpg",
+      "licentie": "CC BY 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by/4.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "san_clemente-3",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Roma, Basilica di San Clemente, Mitreo",
+      "alt": "Rome, Italy. Basilica of San Clemente al Laterano. Antic level, mithraeum.",
+      "maker": "Palickap",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Roma,_Basilica_di_San_Clemente,_Mitreo.jpg",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    }
+  ],
+  "colosseo": [
+    {
+      "bestand": "colosseo-1",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Frances (Appleton) Longfellow to Thomas Gold Appleton, 15 November 1844 (c78cc0ed-5c9b-4709-ac76-6a109840ef49)",
+      "alt": "Manuscript letter Archives Number: 1011/002.001-014#031 Cambridge. Nov 15th 1844. We were charmed to hear, dearest, that you had been enjoyi",
+      "maker": "Fanny (Appleton) Longfellow (1817-1861)",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Frances_(Appleton)_Longfellow_to_Thomas_Gold_Appleton,_15_November_1844_(c78cc0ed-5c9b-4709-ac76-6a109840ef49).jpg",
+      "licentie": "Public domain",
+      "licentie_url": null,
+      "bewerkt": true
+    },
+    {
+      "bestand": "colosseo-2",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Frances (Appleton) Longfellow to Thomas Gold Appleton, 15 November 1844 (e750ff1b-05c0-4b63-b1eb-880d9349089d)",
+      "alt": "Manuscript letter Archives Number: 1011/002.001-014#031 Cambridge. Nov 15th 1844. We were charmed to hear, dearest, that you had been enjoyi",
+      "maker": "Fanny (Appleton) Longfellow (1817-1861)",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Frances_(Appleton)_Longfellow_to_Thomas_Gold_Appleton,_15_November_1844_(e750ff1b-05c0-4b63-b1eb-880d9349089d).jpg",
+      "licentie": "Public domain",
+      "licentie_url": null,
+      "bewerkt": true
+    }
+  ],
+  "fori_imperiali": [
+    {
+      "bestand": "fori_imperiali-1",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Sidewalk of Via dei Fori Imperiali, Roma, Italy",
+      "alt": "Sidewalk of Via dei Fori Imperiali, Roma, Italy",
+      "maker": "Vsatinet",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Sidewalk_of_Via_dei_Fori_Imperiali,_Roma,_Italy.jpg",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "fori_imperiali-2",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Roma- Via dei Fori Imperiali - 52345440539",
+      "alt": "Rome (Italy)",
+      "maker": "Jorge Franganillo",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Roma-_Via_dei_Fori_Imperiali_-_52345440539.jpg",
+      "licentie": "CC BY 2.0",
+      "licentie_url": "https://creativecommons.org/licenses/by/2.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "fori_imperiali-3",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Via dei Fori Imperiali (31458852677)",
+      "alt": "Rome, Italy",
+      "maker": "Sonse",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Via_dei_Fori_Imperiali_(31458852677).jpg",
+      "licentie": "CC BY 2.0",
+      "licentie_url": "https://creativecommons.org/licenses/by/2.0",
+      "bewerkt": true
+    }
+  ],
+  "campidoglio": [
+    {
+      "bestand": "campidoglio-1",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Fountain in Piazza del Campidoglio (Rome) - Nile",
+      "alt": "Fountain in Piazza del Campidoglio (Rome) - Nile",
+      "maker": "Diana Ringo",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Fountain_in_Piazza_del_Campidoglio_(Rome)_-_Nile.jpg",
+      "licentie": "CC BY-SA 3.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "campidoglio-2",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Campidoglio Rome 20140808 2768",
+      "alt": "Campidoglio square in Rome, on top of the Capitoline Hill",
+      "maker": "Jakub Hałun",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Campidoglio_Rome_20140808_2768.jpg",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "campidoglio-3",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Piazza del Campidoglio Roma",
+      "alt": "Piazza del Campidoglio, Rome.",
+      "maker": "Jensens",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Piazza_del_Campidoglio_Roma.jpg",
+      "licentie": "Public domain",
+      "licentie_url": null,
+      "bewerkt": true
+    }
+  ],
+  "monti": [
+    {
+      "bestand": "monti-1",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "P za Madonna dei Monti, via dei serpenti e via Baccina P1080717",
+      "alt": "Roma, piazza della Madonna dei Monti. Di fronte il fianco della chiesa su via dei Serpenti e via Baccina.",
+      "maker": "Lalupa",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:P_za_Madonna_dei_Monti,_via_dei_serpenti_e_via_Baccina_P1080717.JPG",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "monti-2",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Fontana di piazza Madonna dei Monti",
+      "alt": "La fontana di piazza della Madonna dei Monti",
+      "maker": "Galzu",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Fontana_di_piazza_Madonna_dei_Monti.JPG",
+      "licentie": "Public domain",
+      "licentie_url": null,
+      "bewerkt": true
+    },
+    {
+      "bestand": "monti-3",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Piazza Madonna dei Monti - La fontana",
+      "alt": "La fontana in piazza della Madonna dei Monti",
+      "maker": "Galzu",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Piazza_Madonna_dei_Monti_-_La_fontana.JPG",
+      "licentie": "Public domain",
+      "licentie_url": null,
+      "bewerkt": true
+    }
+  ],
+  "casa_bleve": [],
+  "topbike": [
+    {
+      "bestand": "topbike-1",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Monti - v Labicana e Colosseo 1180783",
+      "alt": "Roma, via Labicana verso il Colosseo",
+      "maker": "Lalupa",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Monti_-_v_Labicana_e_Colosseo_1180783.JPG",
+      "licentie": "CC BY-SA 3.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "topbike-2",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "The Ludus Magnus, one of the four training grounds for Roman gladiators in Rome, built by the emperor Domitian (81-96) east of the Colosseum, Colosseum Valley, Rome (21772011091)",
+      "alt": "The Ludus Magnus, one of the four training grounds for Roman gladiators in Rome, built by the emperor Domitian (81-96) east of the Colosseum",
+      "maker": "Carole Raddato from Frankfurt, Germany",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:The_Ludus_Magnus,_one_of_the_four_training_grounds_for_Roman_gladiators_in_Rome,_built_by_the_emperor_Domitian_(81-96)_east_of_the_Colosseum,_Colosseum_Valley,_Rome_(21772011091).jpg",
+      "licentie": "CC BY-SA 2.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "topbike-3",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Ludus Magnus, Rome (36789269546)",
+      "alt": "Archaeological site next to the Colosseum. Apparently where gladiators were housed and trained.",
+      "maker": "Philip Mallis from Melbourne",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Ludus_Magnus,_Rome_(36789269546).jpg",
+      "licentie": "CC BY-SA 2.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "bewerkt": true
+    }
+  ],
+  "ai_fienaroli": [
+    {
+      "bestand": "ai_fienaroli-1",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Edificio in via Roma, Carloforte, Isola di San Pietro, Carbonia-Iglesias, Sardinia, Italy - panoramio",
+      "alt": "Edificio in via Roma, Carloforte, Isola di San Pietro, Carbonia-Iglesias, Sardegna, Italia",
+      "maker": "trolvag",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Edificio_in_via_Roma,_Carloforte,_Isola_di_San_Pietro,_Carbonia-Iglesias,_Sardinia,_Italy_-_panoramio.jpg",
+      "licentie": "CC BY-SA 3.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "ai_fienaroli-2",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Sede di Azione Roma",
+      "alt": "Sede territoriale di Azione a Roma, in via Sardegna",
+      "maker": "Gekosocialista",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Sede_di_Azione_Roma.jpg",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "ai_fienaroli-3",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Ludovisi - villino Florio 1270861",
+      "alt": "Roma, villino Florio, lato via Sardegna (progettista Ernesto Basile)",
+      "maker": "Lalupa",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Ludovisi_-_villino_Florio_1270861.JPG",
+      "licentie": "CC BY-SA 3.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "bewerkt": true
+    }
+  ],
+  "piazza_di_spagna": [
+    {
+      "bestand": "piazza_di_spagna-1",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Spanish Steps, Rome (Ank Kumar) 03",
+      "alt": "Spanish Steps, Rome",
+      "maker": "Ank Kumar",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Spanish_Steps,_Rome_(Ank_Kumar)_03.jpg",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "piazza_di_spagna-2",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Spanish Steps, Rome (Ank Kumar) 06",
+      "alt": "Spanish Steps, Rome",
+      "maker": "Ank Kumar",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Spanish_Steps,_Rome_(Ank_Kumar)_06.jpg",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "piazza_di_spagna-3",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Spanish Steps, Rome (Ank Kumar) 05",
+      "alt": "Spanish Steps, Rome",
+      "maker": "Ank Kumar",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Spanish_Steps,_Rome_(Ank_Kumar)_05.jpg",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    }
+  ],
+  "trevi": [
+    {
+      "bestand": "trevi-1",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Fontaine Trevi - Rome",
+      "alt": "The Trevi Fountain (in Italian Fontana di Trevi), Rome, Italy. This 18th-century fountain is located in the Trevi district in Rome, Italy. I",
+      "maker": "Wilfredor",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Fontaine_Trevi_-_Rome.jpg",
+      "licentie": "CC0",
+      "licentie_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "bewerkt": true
+    },
+    {
+      "bestand": "trevi-2",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Fuente de Trevi, Roma, Italia, 2022-09-15, DD 02",
+      "alt": "The Trevi Fountain (in italian Fontana di Trevi), Rome, Italy. The fountain is an 18th-century fountain in the Trevi district in Rome, Italy",
+      "maker": "Diego Delso",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Fuente_de_Trevi,_Roma,_Italia,_2022-09-15,_DD_02.jpg",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "trevi-3",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Trevi Fountain, Rome, Italy 2 - May 2007",
+      "alt": "A 5x5 segment panorama taken by myself with a Canon 5D and 24-105mm f/4L IS lens. Stitched with rectilinear projection to keep lines straigh",
+      "maker": "Diliff",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Trevi_Fountain,_Rome,_Italy_2_-_May_2007.jpg",
+      "licentie": "CC BY 3.0",
+      "licentie_url": "https://creativecommons.org/licenses/by/3.0",
+      "bewerkt": true
+    }
+  ],
+  "pantheon": [
+    {
+      "bestand": "pantheon-1",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Rome Pantheon facade",
+      "alt": "Facade of the Pantheon in Rome",
+      "maker": "Nicholas Hartmann",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Rome_Pantheon_facade.jpg",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "pantheon-2",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Rome Pantheon facade and Piazza della Rotonda",
+      "alt": "Facade of the Pantheon in Rome, facing the Piazza della Rotonda with its fountain.",
+      "maker": "Nicholas Hartmann",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Rome_Pantheon_facade_and_Piazza_della_Rotonda.jpg",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "pantheon-3",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Façade of the Pantheon, Rome, Italy",
+      "alt": "Façade of the Pantheon, Rome, Italy",
+      "maker": "Julian Lupyan",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_of_the_Pantheon,_Rome,_Italy.jpg",
+      "licentie": "CC0",
+      "licentie_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "bewerkt": true
+    }
+  ],
+  "saint_louis": [
+    {
+      "bestand": "saint_louis-1",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "San Luigi dei Francesi (Rome) - Interior HDR",
+      "alt": "San Luigi dei Francesi (Rome) - Intern HDR",
+      "maker": "Livioandronico2013",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:San_Luigi_dei_Francesi_(Rome)_-_Interior_HDR.jpg",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "saint_louis-2",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Roma - San Luigi dei Francesi 8250",
+      "alt": "Relief of a salamander on the façade of San Luigi dei Francesi church in Rome, Italy. The Latin inscription reads: nutrisco et extingo, refe",
+      "maker": "Phyrexian",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Roma_-_San_Luigi_dei_Francesi_8250.jpg",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "saint_louis-3",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Intern of church of St. Louis of France",
+      "alt": "Intern of church of St. Louis of the French, Rome, Italy.",
+      "maker": "Livioandronico2013",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Intern_of_church_of_St._Louis_of_France.JPG",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    }
+  ],
+  "piazza_navona": [
+    {
+      "bestand": "piazza_navona-1",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Fontana del Nettuno, Piazza del Popolo, Rome, Italie",
+      "alt": "The fountain of Neptune, Piazza del Popolo, Rome, Italy.",
+      "maker": "Jebulon",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Fontana_del_Nettuno,_Piazza_del_Popolo,_Rome,_Italie.jpg",
+      "licentie": "CC0",
+      "licentie_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "bewerkt": true
+    },
+    {
+      "bestand": "piazza_navona-2",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Angel with fish in the fountain of Neptune in Piazza Navona in Rome",
+      "alt": "Angel with fish in the fountain of Neptune in Piazza Navona in Rome",
+      "maker": "Livioandronico2013",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Angel_with_fish_in_the_fountain_of_Neptune_in_Piazza_Navona_in_Rome.jpg",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "piazza_navona-3",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Fontana del Nettuno (Roma)",
+      "alt": "Fontana del Nettuno (Roma)",
+      "maker": "Livioandronico2013",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Fontana_del_Nettuno_(Roma).jpg",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    }
+  ],
+  "castel_sangelo": [
+    {
+      "bestand": "castel_sangelo-1",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "StAngelo Bridge Rome",
+      "alt": "Castel Sant'Angelo/St. Angelo and Ponte Sant'Angelo (Rome)",
+      "maker": "AngMoKio",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:StAngelo_Bridge_Rome.jpg",
+      "licentie": "CC BY-SA 2.5",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "bewerkt": true
+    },
+    {
+      "bestand": "castel_sangelo-2",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Castel Sant'Angelo at dusk, Rome, Italy",
+      "alt": "Castel Sant'Angelo at dusk, Rome, Italy.",
+      "maker": "Jebulon",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Castel_Sant%27Angelo_at_dusk,_Rome,_Italy.jpg",
+      "licentie": "CC0",
+      "licentie_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "bewerkt": true
+    },
+    {
+      "bestand": "castel_sangelo-3",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Engelsburg und Engelsbrücke abends",
+      "alt": "Castel Sant'Angelo and Ponte Sant'Angelo in Rome, Italy",
+      "maker": "Thomas Wolf, www.foto-tw.de",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Engelsburg_und_Engelsbr%C3%BCcke_abends.jpg",
+      "licentie": "CC BY-SA 3.0 de",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "bewerkt": true
+    }
+  ],
+  "terrazza_borromini": [],
+  "grappolo_doro": [
+    {
+      "bestand": "grappolo_doro-1",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Piazza della Cancelleria Rome",
+      "alt": "Piazze della Cancelleria, Rome.",
+      "maker": "Jensens",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Piazza_della_Cancelleria_Rome.jpg",
+      "licentie": "Public domain",
+      "licentie_url": null,
+      "bewerkt": true
+    },
+    {
+      "bestand": "grappolo_doro-2",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Palazzo della Cancelleria (Rome) (77564084)",
+      "alt": "Giuseppe Vasi, engraving Palazzo della Cancelleria, Rome 18th century",
+      "maker": "Giuseppe Vasi",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Palazzo_della_Cancelleria_(Rome)_(77564084).jpg",
+      "licentie": "Public domain",
+      "licentie_url": null,
+      "bewerkt": true
+    },
+    {
+      "bestand": "grappolo_doro-3",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Palazzo della cancelleria, roma, 01",
+      "alt": "Palazzo della Cancelleria, Roma, angolo via del Pellegrino",
+      "maker": "sailko",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Palazzo_della_cancelleria,_roma,_01.JPG",
+      "licentie": "CC BY-SA 3.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "bewerkt": true
+    }
+  ],
+  "doria_pamphilj": [
+    {
+      "bestand": "doria_pamphilj-1",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Roma - Galleria Doria Pamphilj - 2024-09-26 13-55-32 015",
+      "alt": "Galleria Doria Pamphilj",
+      "maker": "Perla Marvorid",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Roma_-_Galleria_Doria_Pamphilj_-_2024-09-26_13-55-32_015.jpg",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "doria_pamphilj-2",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Roma - Museo della Villa Doria Phampilj - 2024-09-19 21-35-11 018",
+      "alt": "Museo della Villa Doria Phampilj",
+      "maker": "Perla Marvorid",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Roma_-_Museo_della_Villa_Doria_Phampilj_-_2024-09-19_21-35-11_018.jpg",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "doria_pamphilj-3",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "Palazzo doria pamphili, galleria degli specchi 01",
+      "alt": "Palazzo Doria Pamphilj (Rome) - Interiors",
+      "maker": "Sailko",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Palazzo_doria_pamphili,_galleria_degli_specchi_01.jpg",
+      "licentie": "CC BY 3.0",
+      "licentie_url": "https://creativecommons.org/licenses/by/3.0",
+      "bewerkt": true
+    }
+  ],
+  "romane": [
+    {
+      "bestand": "romane-1",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "ATAC Irisbus Citelis (4506)",
+      "alt": "An ATAC Irisbus Citelis 12 CNG (number 4506) serving on line 492 (Cipro - Staz.ne Tiburtina) in via Zanardelli, Rome.",
+      "maker": "Kaga tau",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:ATAC_Irisbus_Citelis_(4506).jpg",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "romane-2",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "ATAC Iveco CityClass (3821) - back view",
+      "alt": "An ATAC Iveco 491E.12 CityClass Cursor TH (number 3821/Tor Sapienza) serving on line 492 (Tiburtina - Cipro) in via Giuseppe Zanardelli, Rom",
+      "maker": "Kaga tau",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:ATAC_Iveco_CityClass_(3821)_-_back_view.jpg",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bewerkt": true
+    }
+  ]
+}
