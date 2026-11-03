@@ -11,10 +11,11 @@
 //  - alleen foto's (JPEG), minimaal 1600 px breed, liggend formaat;
 //  - foto's met persoonlijkheidsrechten of merkrechten-waarschuwing worden overgeslagen;
 //  - bestandsnamen met "selfie", "people", "logo" e.d. worden overgeslagen.
-// Fijnregelen kan in scripts/fotos-keuze.json (uitsluiten of juist vastzetten per locatie).
+// Fijnregelen kan in scripts/fotos-keuze.json (uitsluiten, vastzetten, andere zoekterm of
+// "geen": true voor een rustige placeholder). Gewijzigde locaties worden vanzelf opnieuw opgehaald.
 // Bekijk het resultaat altijd even op de pagina Fotoverantwoording.
 
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, unlinkSync } from 'node:fs';
 import sharp from 'sharp';
 
 const UA = 'RomeGroepsreisApp/1.0 (https://github.com/robruijn/rdb.test; fotoselectie voor besloten reis-app)';
@@ -28,6 +29,10 @@ const keuzePad = new URL('scripts/fotos-keuze.json', root);
 mkdirSync(new URL('public/fotos/', root), { recursive: true });
 const index = existsSync(indexPad) ? JSON.parse(readFileSync(indexPad, 'utf8')) : {};
 const keuze = existsSync(keuzePad) ? JSON.parse(readFileSync(keuzePad, 'utf8')) : {};
+// Onthoudt met welke keuze-instellingen elke locatie is opgehaald. Verandert de keuze
+// voor een locatie in fotos-keuze.json, dan haalt het script die locatie opnieuw op.
+const standPad = new URL('scripts/.fotos-stand.json', root);
+const stand = existsSync(standPad) ? JSON.parse(readFileSync(standPad, 'utf8')) : {};
 
 const args = process.argv.slice(2);
 const alles = args.includes('--alles');
@@ -105,8 +110,18 @@ async function bewaar(id, n, f) {
 for (const [id, l] of Object.entries(data.locaties)) {
   if (!l.foto_zoekterm) continue;
   if (alleen.length && !alleen.includes(id)) continue;
-  if (!alles && !alleen.length && index[id]?.length) continue;
   const k = keuze[id] ?? {};
+  const vingerafdruk = JSON.stringify(k);
+  const gewijzigd = (stand[id] ?? '{}') !== vingerafdruk;
+  if (!alles && !alleen.length && !gewijzigd && (index[id]?.length || k.geen)) continue;
+  // Oude bestanden van deze locatie opruimen.
+  for (const f of readdirSync(new URL('public/fotos/', root))) if (f.startsWith(id + '-')) unlinkSync(new URL('public/fotos/' + f, root));
+  if (k.geen) {
+    index[id] = [];
+    stand[id] = vingerafdruk;
+    console.log(`– ${id}: bewust geen foto's (placeholder)`);
+    continue;
+  }
   try {
     let kandidaten = (await zoek(k.zoekterm ?? l.foto_zoekterm)).filter((f) => geschikt(f, k.uitsluiten ?? []));
     // Vastgezette bestanden eerst.
@@ -130,6 +145,7 @@ for (const [id, l] of Object.entries(data.locaties)) {
       }
     }
     index[id] = gekozen;
+    stand[id] = vingerafdruk;
     console.log(`${gekozen.length ? '✓' : '✖'} ${id}: ${gekozen.length} foto('s)${gekozen.map((g) => `\n    - ${g.titel} · ${g.maker} · ${g.licentie}`).join('')}`);
   } catch (e) {
     console.warn(`✖ ${id}: ${e.message}`);
@@ -137,4 +153,5 @@ for (const [id, l] of Object.entries(data.locaties)) {
 }
 
 writeFileSync(indexPad, JSON.stringify(index, null, 2) + '\n');
+writeFileSync(standPad, JSON.stringify(stand, null, 2) + '\n');
 console.log('\nKlaar: public/fotos/fotos.json bijgewerkt. Controleer de foto\'s via #/fotos in de app.');

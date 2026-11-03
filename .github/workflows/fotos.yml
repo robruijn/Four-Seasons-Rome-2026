@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/fotos
+          git add public/fotos scripts/.fotos-stand.json
           git diff --cached --quiet && echo "Geen nieuwe foto's" && exit 0
           git commit -m "Foto's bijgewerkt via Wikimedia Commons"
           git push
