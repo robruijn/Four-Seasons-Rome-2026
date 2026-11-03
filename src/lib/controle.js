@@ -24,6 +24,9 @@ export function controleer(data) {
   for (const [k, v] of Object.entries(data.meta ?? {})) {
     if (typeof v === 'string' && ONBEVESTIGD.test(v)) add('bevestigen', `meta.${k}`, v);
   }
+  for (const r of data.meta?.reisleiders ?? []) {
+    if (!r.telefoon || ONBEVESTIGD.test(r.telefoon)) add('bevestigen', `meta.reisleiders.${r.naam}`, 'telefoonnummer ontbreekt');
+  }
 
   // Locaties
   for (const [id, l] of Object.entries(L)) {

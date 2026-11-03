@@ -38,10 +38,11 @@ En in het blok: `"locatie": "lunch_vrijdag"` en `"status"` weghalen. Zet bij rou
 en eventueel `"streetview_stops": ["lunch_vrijdag", "san_clemente"]`.
 Coördinaten: draai `npm run geocode` (zie GOOGLE-MAPS.md) of zoek ze op in Google Maps (rechtsklik → coördinaten kopiëren).
 
-**Telefoonnummer reisleider**: in `meta` → `"reisleider_telefoon": "+31 6 12345678"`. Zodra er geen `TE_BEVESTIGEN`
-meer staat, verschijnt in *Praktisch* een belknop.
+**Telefoonnummers reisleiders**: in `meta` → `reisleiders`, bijvoorbeeld
+`{"naam": "Robert", "telefoon": "+31 6 12345678"}`. Zodra er geen `TE_BEVESTIGEN` meer staat, verschijnt in
+*Praktisch* een belknop met de naam.
 
-**Groepsgrootte**: `"aantal_personen": 16` (als getal, zonder aanhalingstekens).
+**Groepsgrootte**: `"aantal_personen": 16` (als getal, zonder aanhalingstekens). Staat al goed.
 
 **Vervoersicoon**: `"vervoer": "taxi"`, `"fiets"` of `"voet"`. Blokken met een `route` krijgen automatisch "te voet".
 

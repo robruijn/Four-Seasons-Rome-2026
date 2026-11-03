@@ -3,19 +3,20 @@
     "titel": "Rome met de groep",
     "periode": "2026-11-13 t/m 2026-11-15",
     "taal": "nl",
-    "aantal_personen": "TE_BEVESTIGEN (16 of 15)",
-    "reisleider_telefoon": "TE_BEVESTIGEN",
+    "aantal_personen": 16,
+    "reisleiders": [
+      {"naam": "Robert", "telefoon": "TE_BEVESTIGEN"},
+      {"naam": "Bas", "telefoon": "TE_BEVESTIGEN"}
+    ],
     "laatst_gecontroleerd": "2026-11-03",
     "opmerking_geocoding": "Locaties met lat/lng = null: ophalen via Google Geocoding API op basis van het adres."
   },
 
   "open_vragen": [
-    "Vrijdag diner: 21:00-23:30, maar terugrit naar hotel staat om 22:30. Welke tijd klopt?",
     "Vrijdag: oorspronkelijk stond 'La Matriciana' bij de terugrit; aangenomen is Casa Bleve.",
     "Vrijdag late lunch: locatie nog niet vastgesteld.",
-    "Zaterdag: bike-blok (09:30-13:30) overlapt met de taxirit van 09:15-09:40; douche-blok stond als 13:34, aangenomen 13:45.",
-    "Romanè: reservering controleren voor Via Cipro 106 (niet Romanè Armare, Via Cipro 61).",
-    "Groepsgrootte: 16 of 15? (taxi-indeling: 4 taxi's)."
+    "Zaterdag: douche-blok stond als 13:34, aangenomen 13:45.",
+    "Telefoonnummers van de reisleiders Robert en Bas."
   ],
 
   "locaties": {
@@ -178,7 +179,7 @@
       "telefoon_status": "uit recensie 2021, verifiëren",
       "lat": 41.9077, "lng": 12.4479, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
       "tekst": "Het restaurant van Stefano Callegari, bekend als bedenker van de trapizzino. Het menu is een eerbetoon aan de Romeinse keuken, met onder meer fettuccine met vleessaus en abbacchio.",
-      "praktisch": "Let op: Romanè Armare (Via Cipro 61) is een ander restaurant.",
+      "praktisch": "Reservering bevestigd (Via Cipro 106). Let op: Romanè Armare (Via Cipro 61) is een ander restaurant.",
       "foto_zoekterm": "Via Cipro Rome"
     }
   },
@@ -199,8 +200,8 @@
         {"id": "v9", "van": "18:35", "tot": "19:00", "titel": "Terug naar Monti", "route": "r_v4", "noot": "Te voet."},
         {"id": "v10", "van": "19:00", "tot": "19:50", "titel": "Aperitivo", "locatie": "monti", "noot": "Staand of op terras; houd het licht."},
         {"id": "v11", "van": "19:50", "tot": "20:15", "titel": "Terugloop / korte pauze", "locatie": "hotel_viminale", "noot": "Even naar het hotel indien gewenst."},
-        {"id": "v12", "van": "21:00", "tot": "23:30", "titel": "Diner", "locatie": "casa_bleve"},
-        {"id": "v13", "van": "22:30", "tot": "22:40", "titel": "Terug naar hotel", "van_loc": "casa_bleve", "naar_loc": "hotel_viminale", "status": "TIJD_TE_BEVESTIGEN", "noot": "Einde dag."}
+        {"id": "v12", "van": "21:00", "tot": "22:30", "titel": "Diner", "locatie": "casa_bleve"},
+        {"id": "v13", "van": "22:30", "tot": "22:40", "titel": "Terug naar hotel", "van_loc": "casa_bleve", "naar_loc": "hotel_viminale", "noot": "Einde dag."}
       ]
     },
     {
@@ -208,7 +209,7 @@
       "label": "Zaterdag 14 november",
       "blokken": [
         {"id": "z1", "van": "08:00", "tot": "09:00", "titel": "Ontbijt", "locatie": "hotel_viminale", "noot": "Vertrek compact houden; museum werkt op timeslots."},
-        {"id": "z2", "van": "09:15", "tot": "09:40", "titel": "4 taxi's naar TopBike", "vervoer": "taxi", "van_loc": "hotel_viminale", "naar_loc": "topbike"},
+        {"id": "z2", "van": "09:15", "tot": "09:30", "titel": "4 taxi's naar TopBike", "vervoer": "taxi", "van_loc": "hotel_viminale", "naar_loc": "topbike"},
         {"id": "z3", "van": "09:30", "tot": "13:30", "titel": "Bike fitting en veiligheidsbriefing", "locatie": "topbike", "noot": "Advies: e-bikes voor de hele groep, vanwege tempo en comfort."},
         {"id": "z4", "van": "13:30", "tot": "13:45", "titel": "Fietsen inleveren en taxi terug", "vervoer": "taxi", "van_loc": "topbike", "naar_loc": "hotel_viminale", "noot": "Korte reset voor de avond."},
         {"id": "z5", "van": "13:45", "tot": "14:15", "titel": "Douchen / omkleden", "locatie": "hotel_viminale", "noot": "Harde cut-off aanhouden om het avondprogramma strak te houden."},

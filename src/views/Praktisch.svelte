@@ -6,8 +6,11 @@
 
   const p = $derived(app.data.praktisch);
   const hotel = $derived(loc(p.hotel));
-  const reisleider = $derived(app.data.meta.reisleider_telefoon);
-  const reisleiderBekend = $derived(reisleider && !onbevestigd(reisleider));
+  // meta.reisleiders: [{naam, telefoon}]. (Oud formaat reisleider_telefoon blijft werken.)
+  const reisleiders = $derived(
+    app.data.meta.reisleiders ?? [{ naam: 'Reisleider', telefoon: app.data.meta.reisleider_telefoon }]
+  );
+  const nummerBekend = (t) => t && !onbevestigd(t);
   const taxis = $derived(aantalTaxis());
   let gedeeld = $state('');
 
@@ -49,15 +52,22 @@
     {#if hotel.tekst}<p class="klein">{hotel.tekst}</p>{/if}
   </section>
 
-  <!-- Reisleider -->
+  <!-- Reisleiders -->
   <section aria-labelledby="h-rl">
-    <h2 id="h-rl" class="sectie-titel"><Icon naam="groep" /> Reisleider</h2>
-    <div class="kaart">
-      {#if reisleiderBekend}
-        <a class="knop vol" href={telLink(reisleider)}><Icon naam="telefoon" /> Bel de reisleider ({reisleider})</a>
-      {:else}
-        <p><span class="label"><Icon naam="let_op" maat={14} /> Nummer volgt</span></p>
-        <p class="klein">Het telefoonnummer van de reisleider wordt nog toegevoegd. Sla het daarna ook op in je telefoon.</p>
+    <h2 id="h-rl" class="sectie-titel"><Icon naam="groep" /> {reisleiders.length > 1 ? 'Reisleiders' : 'Reisleider'}</h2>
+    <div class="kaart leiders">
+      {#each reisleiders as r}
+        <div class="leider">
+          <p class="dik naam">{r.naam}</p>
+          {#if nummerBekend(r.telefoon)}
+            <a class="knop vol" href={telLink(r.telefoon)}><Icon naam="telefoon" /> Bel {r.naam} ({r.telefoon})</a>
+          {:else}
+            <p><span class="label"><Icon naam="let_op" maat={14} /> Nummer volgt</span></p>
+          {/if}
+        </div>
+      {/each}
+      {#if reisleiders.some((r) => !nummerBekend(r.telefoon))}
+        <p class="klein">Telefoonnummers worden nog toegevoegd. Sla ze daarna ook op in je telefoon.</p>
       {/if}
     </div>
   </section>
@@ -98,6 +108,9 @@
   }
   .nood span { display: grid; }
   .nood strong { font-size: 1.35rem; }
+  .leiders { display: grid; gap: 0.9rem; }
+  .leider p { margin: 0 0 0.35rem; }
+  .naam { font-size: 1.15rem; }
   .groot { min-height: 3.6rem; font-size: 1.15rem; margin-bottom: 0.75rem; }
   .groottaxi { font-size: 1.3rem; color: var(--terra); }
   .afspraak { display: flex; gap: 0.5rem; align-items: flex-start; font-weight: 650; }
