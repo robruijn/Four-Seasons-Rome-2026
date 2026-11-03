@@ -17,6 +17,19 @@ export const pwa = $state({
 let update = null;
 
 export function startPwa() {
+  // VITE_GEEN_SW=1: versie zonder service worker (bijv. voor een voorbeeldlink op een
+  // andere host). Ook als de browser geen service workers toestaat, slaan we dit over.
+  if (!import.meta.env.VITE_GEEN_SW && 'serviceWorker' in navigator) {
+    try {
+      registreer();
+    } catch {
+      /* geen offline-modus op deze host */
+    }
+  }
+  startInstallatie();
+}
+
+function registreer() {
   update = registerSW({
     onNeedRefresh() {
       pwa.nieuweVersie = true;
@@ -30,7 +43,9 @@ export function startPwa() {
       if (reg) setInterval(() => navigator.onLine && reg.update().catch(() => {}), 3600e3);
     }
   });
+}
 
+function startInstallatie() {
   addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
     pwa.installPrompt = e;
