@@ -7,10 +7,10 @@ Stand: 3 november 2026 (bijgewerkt na antwoorden opdrachtgever). Actuele lijst: 
 - [x] **Groepsgrootte**: 16 personen (4 taxi's).
 - [x] **Vrijdag diner**: terugrit 22:30 klopt; het diner loopt nu van 21:00 tot 22:30.
 - [ ] **Vrijdag terugrit**: oorspronkelijk stond 'La Matriciana'; aangenomen is Casa Bleve. Klopt dat?
-- [ ] **Vrijdag late lunch** (14:40–15:55): locatie nog onbekend. Daarmee ontbreekt ook het vertrekpunt van route r_v1 naar San Clemente.
+- [ ] **Vrijdag late lunch** (14:40–15:55): nader te bepalen. Daarmee ontbreekt ook het vertrekpunt van route r_v1 naar San Clemente. Invullen volgens BEHEER.md.
 - [x] **Zaterdag**: de taxirit loopt van 09:15 tot 09:30; geen overlap meer met het fietsen.
 - [ ] **Zaterdag**: douche-blok stond als 13:34, aangenomen 13:45.
-- [ ] **Zondag 09:25** "Naar Galleria Doria Pamphilj": vervoer staat als taxi, maar de noot zegt "te voet 20 minuten". Wat wordt het?
+- [x] **Zondag 09:25** naar Galleria Doria Pamphilj: met de taxi.
 - [ ] **Zaterdag bike-blok**: wil je `"vervoer": "fiets"` toevoegen? Dan krijgt het blok een fietsicoon.
 - [x] **Groepscode**: niet gebruiken.
 
@@ -21,7 +21,7 @@ Stand: 3 november 2026 (bijgewerkt na antwoorden opdrachtgever). Actuele lijst: 
 - [ ] **San Clemente**: adres Via Labicana 95 verifiëren.
 - [ ] **Babington's Tea Rooms**: Piazza di Spagna 23 verifiëren (verzamelpunt stadstour).
 - [ ] **Hotel Viminale**: twee telefoonnummers (+39 06 84030333 en +39 06 4881980); één keer bellen en het juiste houden.
-- [ ] **Reisleiders Robert en Bas**: telefoonnummers toevoegen (`meta.reisleiders`).
+- [x] **Reisleiders**: Robert +31 6 16839022, Bas +31 6 21864173.
 - [ ] **Apotheek** (placeholder): Farmacia Piram, Via Nazionale 228, 24 uur open, +39 06 488 0754. Openingstijden en nummer bevestigen.
 - [ ] **Ziekenhuis** (placeholder): Policlinico Umberto I, Viale del Policlinico 155 (spoedeisende hulp). Bevestigen.
 - [ ] **Coördinaten**: 16 locaties zijn handmatig ingevuld (op ca. 20–50 m nauwkeurig). Draai `npm run geocode` met een Google-sleutel voor de definitieve waarden.

@@ -9,7 +9,7 @@ De testklok `?nu=` is gebruikt om momenten tijdens de reis na te bootsen.
 | Criterium | Resultaat | Toelichting |
 |---|---|---|
 | Drie dagen met juiste blokken, tijden en locaties | ✅ | Alle 33 blokken uit `programma.json` getoond; `npm run check` geeft 0 fouten. |
-| "Nu / Straks" op Rome-tijd, ook in andere tijdzone | ✅ | Getest met toesteltijdzone America/New_York: om 10:05 Rome-tijd toont "Nu" het fietsblok en "Straks" het inleveren om 13:30. Vóór de reis: "De reis begint over 10 dagen" + eerste blok. Bij overlap (taxi 09:15–09:40 en fietsen 09:30) telt het laatst begonnen blok. |
+| "Nu / Straks" op Rome-tijd, ook in andere tijdzone | ✅ | Getest met toesteltijdzone America/New_York: om 10:05 Rome-tijd toont "Nu" het fietsblok en "Straks" het inleveren om 13:30. Vóór de reis: "De reis begint over 10 dagen" + eerste blok. Om 09:20 toont "Nu" de taxi naar TopBike (tot 09:30) en "Straks" het fietsblok. Overlappen blokken toch, dan telt het laatst begonnen blok. |
 | Huidig blok gemarkeerd, automatisch scrollen | ✅ | Dikke rand en het label "Nu bezig" (dus niet alleen kleur); de tijdlijn scrolt ernaartoe bij openen. |
 | Status TE_BEPALEN / TIJD_TE_BEVESTIGEN netjes gemarkeerd | ✅ | Geel label met stippelrand: "Nog te bepalen" of "Tijd nog te bevestigen". |
 | Elke locatie: adres, kopieerknop, Maps-knop, toelichting | ✅ | Ook voor hotel, apotheek en ziekenhuis. Niet-geverifieerde adressen en nummers zijn gelabeld. |

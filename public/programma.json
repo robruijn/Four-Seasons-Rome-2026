@@ -5,8 +5,8 @@
     "taal": "nl",
     "aantal_personen": 16,
     "reisleiders": [
-      {"naam": "Robert", "telefoon": "TE_BEVESTIGEN"},
-      {"naam": "Bas", "telefoon": "TE_BEVESTIGEN"}
+      {"naam": "Robert", "telefoon": "+31 6 16839022"},
+      {"naam": "Bas", "telefoon": "+31 6 21864173"}
     ],
     "laatst_gecontroleerd": "2026-11-03",
     "opmerking_geocoding": "Locaties met lat/lng = null: ophalen via Google Geocoding API op basis van het adres."
@@ -14,9 +14,8 @@
 
   "open_vragen": [
     "Vrijdag: oorspronkelijk stond 'La Matriciana' bij de terugrit; aangenomen is Casa Bleve.",
-    "Vrijdag late lunch: locatie nog niet vastgesteld.",
-    "Zaterdag: douche-blok stond als 13:34, aangenomen 13:45.",
-    "Telefoonnummers van de reisleiders Robert en Bas."
+    "Vrijdag late lunch: locatie nader te bepalen.",
+    "Zaterdag: douche-blok stond als 13:34, aangenomen 13:45."
   ],
 
   "locaties": {
@@ -226,7 +225,7 @@
       "blokken": [
         {"id": "x1", "van": "08:00", "tot": "09:00", "titel": "Ontbijt", "locatie": "hotel_viminale"},
         {"id": "x2", "van": "09:00", "tot": "09:20", "titel": "Uitchecken en bagage stallen", "locatie": "hotel_viminale"},
-        {"id": "x3", "van": "09:25", "tot": "09:50", "titel": "Naar Galleria Doria Pamphilj", "vervoer": "taxi", "van_loc": "hotel_viminale", "naar_loc": "doria_pamphilj", "noot": "Te voet 20 minuten, 1,4 km."},
+        {"id": "x3", "van": "09:25", "tot": "09:50", "titel": "Naar Galleria Doria Pamphilj", "vervoer": "taxi", "van_loc": "hotel_viminale", "naar_loc": "doria_pamphilj", "noot": "4 taxi's. Lopen kan ook: 20 minuten, 1,4 km."},
         {"id": "x4", "van": "10:00", "tot": "11:30", "titel": "Galleria Doria Pamphilj", "locatie": "doria_pamphilj", "noot": "Geboekt."},
         {"id": "x5", "van": "11:45", "tot": "12:00", "titel": "4 taxi's naar Romanè", "vervoer": "taxi", "van_loc": "doria_pamphilj", "naar_loc": "romane"},
         {"id": "x6", "van": "12:00", "tot": "13:35", "titel": "Afscheidslunch", "locatie": "romane", "noot": "Sterke slotlunch, centraal en efficiënt."},
