@@ -66,8 +66,13 @@ async function zoek(term) {
   return pages.map((p) => ({ titel: p.title, ...p.imageinfo?.[0] })).filter((p) => p.url);
 }
 
-function geschikt(f, uitsluiten) {
+// Alleen foto's die zelf aangeven in Rome te zijn genomen (titel of beschrijving),
+// zodat naamgenoten elders (San Clemente in Venetië, Skopje, …) afvallen.
+const IN_ROME = /\b(rom[ae]|roman[ao]?|rome's|vaticano?)\b/i;
+
+function geschikt(f, uitsluiten, plaatsFilter = true) {
   const m = f.extmetadata ?? {};
+  if (plaatsFilter && !IN_ROME.test(`${f.titel} ${m.ImageDescription?.value ?? ''} ${m.Categories?.value ?? ''}`)) return false;
   const lic = m.LicenseShortName?.value ?? '';
   if (!LICENTIE_OK.test(lic)) return false;
   if (f.mime !== 'image/jpeg') return false;
@@ -123,7 +128,7 @@ for (const [id, l] of Object.entries(data.locaties)) {
     continue;
   }
   try {
-    let kandidaten = (await zoek(k.zoekterm ?? l.foto_zoekterm)).filter((f) => geschikt(f, k.uitsluiten ?? []));
+    let kandidaten = (await zoek(k.zoekterm ?? l.foto_zoekterm)).filter((f) => geschikt(f, k.uitsluiten ?? [], k.plaats_filter !== false));
     // Vastgezette bestanden eerst.
     if (k.vast?.length) {
       const vast = [];
