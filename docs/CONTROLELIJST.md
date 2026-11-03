@@ -31,6 +31,7 @@ Stand: 3 november 2026. Actuele lijst: `npm run check` of `#/beheer` in de app.
 - [ ] Code naar `main` en GitHub Pages aanzetten (Settings → Pages → Source: GitHub Actions). Pages werkt gratis alleen bij een openbare repository.
 - [ ] Google Cloud-project, sleutels, budget en quota instellen (zie [GOOGLE-MAPS.md](GOOGLE-MAPS.md)); `VITE_GOOGLE_MAPS_KEY` als GitHub-variabele.
 - [ ] Na de livegang: kaart en Street View testen op een echte iPhone en Android.
-- [ ] Foto's beoordelen op de pagina Fotoverantwoording; ongeschikte foto's uitsluiten via `scripts/fotos-keuze.json`.
+- [ ] Foto's nog eens doorlopen op de pagina Fotoverantwoording (45 foto's, al een keer beoordeeld); ongeschikte foto's uitsluiten via `scripts/fotos-keuze.json`.
+- [ ] Eigen (rechtenvrije) foto's van Casa Bleve, Ai Fienaroli, Romanè en Hotel Viminale? Die tonen nu een illustratie.
 - [ ] QR-code opnieuw maken als het adres anders wordt dan `https://robruijn.github.io/rdb.test/` (`npm run qr -- <url>`).
 - [ ] `meta.laatst_gecontroleerd` bijwerken na de laatste controle van prijzen en tijden.
