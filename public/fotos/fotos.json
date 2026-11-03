@@ -17,19 +17,6 @@
       "bestand": "san_clemente-2",
       "breedte": 800,
       "hoogte": 533,
-      "titel": "Roma, basilica di San Clemente al Laterano - Organo a canne 2",
-      "alt": "Organo a canne.",
-      "maker": "Pufui PcPifpef",
-      "bron": "Wikimedia Commons",
-      "bron_url": "https://commons.wikimedia.org/wiki/File:Roma,_basilica_di_San_Clemente_al_Laterano_-_Organo_a_canne_2.jpg",
-      "licentie": "CC BY-SA 4.0",
-      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "bewerkt": true
-    },
-    {
-      "bestand": "san_clemente-3",
-      "breedte": 800,
-      "hoogte": 533,
       "titel": "Basilica di San Clemente al Laterano Basilica di San Clemente al Laterano - panoramio",
       "alt": "Basilica di San Clemente al Laterano Basilica di San Clemente al Laterano",
       "maker": "Pierfelice Licitra",
@@ -37,6 +24,19 @@
       "bron_url": "https://commons.wikimedia.org/wiki/File:Basilica_di_San_Clemente_al_Laterano_Basilica_di_San_Clemente_al_Laterano_-_panoramio.jpg",
       "licentie": "CC BY 3.0",
       "licentie_url": "https://creativecommons.org/licenses/by/3.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "san_clemente-3",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "San Clemente (Venice) - View from Giudecca",
+      "alt": "San Clemente Venice lagoon - View from the Giudecca",
+      "maker": "Didier Descouens",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:San_Clemente_(Venice)_-_View_from_Giudecca.jpg",
+      "licentie": "CC BY-SA 4.0",
+      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "bewerkt": true
     }
   ],
@@ -86,19 +86,6 @@
       "bestand": "fori_imperiali-1",
       "breedte": 800,
       "hoogte": 533,
-      "titel": "Sidewalk of Via dei Fori Imperiali, Roma, Italy",
-      "alt": "Sidewalk of Via dei Fori Imperiali, Roma, Italy",
-      "maker": "Vsatinet",
-      "bron": "Wikimedia Commons",
-      "bron_url": "https://commons.wikimedia.org/wiki/File:Sidewalk_of_Via_dei_Fori_Imperiali,_Roma,_Italy.jpg",
-      "licentie": "CC BY-SA 4.0",
-      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "bewerkt": true
-    },
-    {
-      "bestand": "fori_imperiali-2",
-      "breedte": 800,
-      "hoogte": 533,
       "titel": "Roma- Via dei Fori Imperiali - 52345440539",
       "alt": "Rome (Italy)",
       "maker": "Jorge Franganillo",
@@ -109,7 +96,7 @@
       "bewerkt": true
     },
     {
-      "bestand": "fori_imperiali-3",
+      "bestand": "fori_imperiali-2",
       "breedte": 800,
       "hoogte": 533,
       "titel": "Via dei Fori Imperiali (31458852677)",
@@ -117,6 +104,19 @@
       "maker": "Sonse",
       "bron": "Wikimedia Commons",
       "bron_url": "https://commons.wikimedia.org/wiki/File:Via_dei_Fori_Imperiali_(31458852677).jpg",
+      "licentie": "CC BY 2.0",
+      "licentie_url": "https://creativecommons.org/licenses/by/2.0",
+      "bewerkt": true
+    },
+    {
+      "bestand": "fori_imperiali-3",
+      "breedte": 800,
+      "hoogte": 533,
+      "titel": "On the Via dei Fori Imperiali",
+      "alt": "On the Via dei Fori Imperiali",
+      "maker": "Thomas Duesing",
+      "bron": "Wikimedia Commons",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:On_the_Via_dei_Fori_Imperiali.jpg",
       "licentie": "CC BY 2.0",
       "licentie_url": "https://creativecommons.org/licenses/by/2.0",
       "bewerkt": true
@@ -204,47 +204,7 @@
       "bewerkt": true
     }
   ],
-  "casa_bleve": [
-    {
-      "bestand": "casa_bleve-1",
-      "breedte": 800,
-      "hoogte": 533,
-      "titel": "Teatro Valle- Roma - Comune di Roma Capitale - 2023-09-06 12-29-58 001",
-      "alt": "Teatro Valle occupato dai lavoratori Italiani dello spettacolo.",
-      "maker": "PhotoPulitzer",
-      "bron": "Wikimedia Commons",
-      "bron_url": "https://commons.wikimedia.org/wiki/File:Teatro_Valle-_Roma_-_Comune_di_Roma_Capitale_-_2023-09-06_12-29-58_001.jpg",
-      "licentie": "CC BY-SA 4.0",
-      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "bewerkt": true
-    },
-    {
-      "bestand": "casa_bleve-2",
-      "breedte": 800,
-      "hoogte": 533,
-      "titel": "TEATRO VALLE presso Roma - Comune di Roma Capitale - 2023-09-06 17-59-05 001",
-      "alt": "Lo storico \"Teatro Valle\" occupato dai lavoratori dello spettacolo per protesta in Roma Capitale.",
-      "maker": "Giacomo Palermo",
-      "bron": "Wikimedia Commons",
-      "bron_url": "https://commons.wikimedia.org/wiki/File:TEATRO_VALLE_presso_Roma_-_Comune_di_Roma_Capitale_-_2023-09-06_17-59-05_001.jpg",
-      "licentie": "CC BY-SA 4.0",
-      "licentie_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "bewerkt": true
-    },
-    {
-      "bestand": "casa_bleve-3",
-      "breedte": 800,
-      "hoogte": 533,
-      "titel": "Sant'Andrea della Valle te Rome, BI-1916-0215-25",
-      "alt": "IdentificatieTitel(s): Sant'Andrea della Valle te Rome. Piazza e Chiesa di S. Andrea della Valle (titel op object) , Moderne gebouwen te Rom",
-      "maker": "Rijksmuseum",
-      "bron": "Wikimedia Commons",
-      "bron_url": "https://commons.wikimedia.org/wiki/File:Sant%27Andrea_della_Valle_te_Rome,_BI-1916-0215-25.jpg",
-      "licentie": "CC0",
-      "licentie_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "bewerkt": true
-    }
-  ],
+  "casa_bleve": [],
   "topbike": [
     {
       "bestand": "topbike-1",

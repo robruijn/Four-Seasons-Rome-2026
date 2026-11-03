@@ -1,10 +1,10 @@
 {
-  "san_clemente": "{\"zoekterm\":\"Basilica San Clemente Laterano Roma\",\"uitsluiten\":[\"File:San Clemente Pier HD by Don Ramey Logan.jpg\"]}",
+  "san_clemente": "{\"zoekterm\":\"Basilica San Clemente Laterano Roma\",\"uitsluiten\":[\"File:San Clemente Pier HD by Don Ramey Logan.jpg\",\"File:Roma, basilica di San Clemente al Laterano - Organo a canne 2.jpg\"]}",
   "colosseo": "{\"zoekterm\":\"Colosseum Rome exterior\"}",
-  "fori_imperiali": "{}",
+  "fori_imperiali": "{\"uitsluiten\":[\"File:Sidewalk of Via dei Fori Imperiali, Roma, Italy.jpg\"]}",
   "campidoglio": "{}",
   "monti": "{}",
-  "casa_bleve": "{\"zoekterm\":\"Teatro Valle Roma\"}",
+  "casa_bleve": "{\"geen\":true}",
   "topbike": "{\"zoekterm\":\"Colosseum Via Labicana Rome\"}",
   "ai_fienaroli": "{\"geen\":true}",
   "piazza_di_spagna": "{}",
