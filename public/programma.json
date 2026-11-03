@@ -1,0 +1,295 @@
+{
+  "meta": {
+    "titel": "Rome met de groep",
+    "periode": "2026-11-13 t/m 2026-11-15",
+    "taal": "nl",
+    "aantal_personen": "TE_BEVESTIGEN (16 of 15)",
+    "reisleider_telefoon": "TE_BEVESTIGEN",
+    "laatst_gecontroleerd": "2026-11-03",
+    "opmerking_geocoding": "Locaties met lat/lng = null: ophalen via Google Geocoding API op basis van het adres."
+  },
+
+  "open_vragen": [
+    "Vrijdag diner: 21:00-23:30, maar terugrit naar hotel staat om 22:30. Welke tijd klopt?",
+    "Vrijdag: oorspronkelijk stond 'La Matriciana' bij de terugrit; aangenomen is Casa Bleve.",
+    "Vrijdag late lunch: locatie nog niet vastgesteld.",
+    "Zaterdag: bike-blok (09:30-13:30) overlapt met de taxirit van 09:15-09:40; douche-blok stond als 13:34, aangenomen 13:45.",
+    "Romanè: reservering controleren voor Via Cipro 106 (niet Romanè Armare, Via Cipro 61).",
+    "Groepsgrootte: 16 of 15? (taxi-indeling: 4 taxi's)."
+  ],
+
+  "locaties": {
+    "fco": {
+      "naam": "Luchthaven Fiumicino (FCO), Terminal 1/3",
+      "adres": "Aeroporto Leonardo da Vinci, Fiumicino",
+      "lat": 41.8003, "lng": 12.2389, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "tekst": "Jullie landen op Fiumicino. Reken ruim de tijd voor uitstappen, bagage en verzamelen voordat de taxi's vertrekken.",
+      "praktisch": "Officiële taxi's naar het centrum binnen de Aurelian Walls: vaste prijs €55 per taxi."
+    },
+    "hotel_viminale": {
+      "naam": "Hotel Viminale",
+      "adres": "Via Cesare Balbo 31, Roma",
+      "telefoon": ["+39 06 84030333", "+39 06 4881980"],
+      "telefoon_opmerking": "Bronnen verschillen; één keer bellen om te controleren.",
+      "lat": 41.8984, "lng": 12.4951,
+      "tekst": "Jullie uitvalsbasis, op loopafstand van Termini, Santa Maria Maggiore en de Via Nazionale. Check-in is vanaf 14:00, uitchecken vóór 11:00. Bagage kan worden gestald.",
+      "praktisch": "Laat de receptie meteen 4 taxi's voor zondag 14:15 naar FCO vastzetten."
+    },
+    "san_clemente": {
+      "naam": "Basilica di San Clemente",
+      "adres": "Via Labicana 95, Roma",
+      "adres_status": "uit eigen kennis, verifiëren",
+      "lat": 41.8893, "lng": 12.4975, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "tekst": "Dit is drie keer Rome in één gebouw. Boven staat een middeleeuwse kerk uit de 12e eeuw, daaronder een oudere basiliek uit de 4e eeuw, en nog dieper liggen Romeinse gebouwen en een mithrastempel. Onderin hoor je water stromen door een antieke afvoer. Je daalt letterlijk door de eeuwen.",
+      "praktisch": "Voor de onderste lagen is een toegangsticket nodig. Controleer prijs en eventuele fotoregels vooraf.",
+      "foto_zoekterm": "Basilica di San Clemente Rome"
+    },
+    "colosseo": {
+      "naam": "Colosseum",
+      "adres": "Piazza del Colosseo, Roma",
+      "lat": 41.8902, "lng": 12.4922, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "tekst": "Het Colosseum werd tussen 72 en 80 na Christus gebouwd. In het gouden uur kleurt de steen warm, en je hoeft er niet in om het effect te voelen.",
+      "foto_zoekterm": "Colosseum Rome golden hour"
+    },
+    "fori_imperiali": {
+      "naam": "Via dei Fori Imperiali",
+      "adres": "Via dei Fori Imperiali, Roma",
+      "lat": 41.8935, "lng": 12.4876, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "tekst": "Deze brede laan werd in de jaren dertig aangelegd en loopt langs de resten van de keizerlijke fora van het Colosseum naar Piazza Venezia. Aan weerszijden zie je de oude Romeinse ruïnes.",
+      "foto_zoekterm": "Via dei Fori Imperiali"
+    },
+    "campidoglio": {
+      "naam": "Piazza del Campidoglio",
+      "adres": "Piazza del Campidoglio, Roma",
+      "lat": 41.8934, "lng": 12.4828, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "tekst": "Het plein op de Capitolijnse heuvel is een ontwerp van Michelangelo uit de 16e eeuw. De symmetrische paleizen en het patroon in de bestrating maken het een van de mooiste pleinen van Rome.",
+      "foto_zoekterm": "Piazza del Campidoglio"
+    },
+    "monti": {
+      "naam": "Piazza della Madonna dei Monti",
+      "adres": "Piazza della Madonna dei Monti, Roma",
+      "lat": 41.8954, "lng": 12.4918, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "tekst": "Monti is de oudste wijk van Rome en was in de oudheid een beruchte volksbuurt. Nu is het een gezellige buurt met vintage winkels, ambachtslieden en terrasjes. Op het plein staat een 16e-eeuwse fontein van Giacomo della Porta.",
+      "praktisch": "Aperitivo staand of op een terras; houd het licht.",
+      "foto_zoekterm": "Piazza della Madonna dei Monti Rome"
+    },
+    "casa_bleve": {
+      "naam": "Casa Bleve",
+      "adres": "Via del Teatro Valle 48, 00186 Roma",
+      "telefoon": ["+39 06 686 5970"],
+      "lat": 41.8976, "lng": 12.4751,
+      "tekst": "Een restaurant in een historisch paleis, gerund door de familie Bleve, afkomstig uit Puglia. De keuken combineert Romeinse tradities met Zuid-Italiaanse zeevruchten, en de wijnkelder staat bekend om zijn omvang.",
+      "praktisch": "Gesloten op zondag. Groepsreservering bevestigen.",
+      "foto_zoekterm": "Casa Bleve Rome"
+    },
+    "topbike": {
+      "naam": "TopBike Rental & Tours",
+      "adres": "Via Labicana 49, 00184 Roma",
+      "telefoon": ["+39 06 4882893"],
+      "lat": 41.8896, "lng": 12.4951, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "tekst": "Het verhuurbedrijf ligt vlak bij het Colosseum en gebruikt e-bikes. Een elektrische fiets maakt de heuvels van Rome een stuk aangenamer, en met de gids ga je langs plekken die met de auto niet te bereiken zijn.",
+      "praktisch": "Een helm is verplicht en wordt ter plekke verstrekt. Vertrek compact houden, het museum werkt met timeslots.",
+      "foto_zoekterm": "e-bike tour Rome"
+    },
+    "ai_fienaroli": {
+      "naam": "Ai Fienaroli",
+      "adres": "Via Piemonte 125 / Via Sardegna 135-137, 00187 Roma",
+      "telefoon": ["+39 06 4555 6436", "+39 338 475 3301"],
+      "lat": 41.9099, "lng": 12.4933,
+      "tekst": "Een familierestaurant vlak bij Villa Borghese met gewelfde plafonds, Romeinse klassiekers en pinsa. Niet op de gebaande toeristenpaden, en juist daarom prettig.",
+      "praktisch": "Ongeveer 20 minuten lopen naar de Spaanse Trappen.",
+      "foto_zoekterm": "Via Sardegna Rome restaurant"
+    },
+    "piazza_di_spagna": {
+      "naam": "Piazza di Spagna / Spaanse Trappen (Babington's Tea Rooms)",
+      "adres": "Piazza di Spagna 23, Roma",
+      "adres_status": "Babington's uit eigen kennis, verifiëren",
+      "lat": 41.9057, "lng": 12.4824, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "tekst": "De 135 treden uit de 18e eeuw verbinden het plein met de kerk Trinità dei Monti. Onderaan staat de Barcaccia, een fontein in de vorm van een schip. Zitten op de trappen is verboden en kan een boete opleveren.",
+      "praktisch": "Verzamelen om 17:00 op Piazza di Spagna, voor Babington's Tea Rooms, links van de Spaanse Trappen. De gids (Cris, Cris Roman Guide) heeft een bordje met haar logo.",
+      "foto_zoekterm": "Spanish Steps Rome"
+    },
+    "trevi": {
+      "naam": "Trevifontein",
+      "adres": "Piazza di Trevi, Roma",
+      "lat": 41.9009, "lng": 12.4833, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "tekst": "De grootste barokfontein van Rome, gebouwd tussen 1732 en 1762 naar een ontwerp van Nicola Salvi. Volgens de traditie gooi je een munt met je rechterhand over je linkerschouder, zodat je terugkeert naar Rome.",
+      "praktisch": "Sinds 2 februari 2026 is voor het bassin een kaartje van €2 nodig voor toeristen. Aan de ingang alleen met pin; vooraf online kopen kan ook.",
+      "foto_zoekterm": "Trevi Fountain Rome"
+    },
+    "pantheon": {
+      "naam": "Pantheon (van buiten)",
+      "adres": "Piazza della Rotonda, Roma",
+      "lat": 41.8986, "lng": 12.4769, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "tekst": "Het Pantheon is bijna 2000 jaar oud en nog steeds in gebruik als kerk. Jullie bekijken het van buiten.",
+      "praktisch": "Binnen is een toegangsticket van €5 nodig.",
+      "foto_zoekterm": "Pantheon Rome facade"
+    },
+    "saint_louis": {
+      "naam": "Saint-Louis-des-Français",
+      "adres": "Piazza di San Luigi dei Francesi, Roma",
+      "lat": 41.8996, "lng": 12.4746, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "tekst": "De nationale kerk van Frankrijk in Rome. In de Contarelli-kapel hangen drie schilderijen van Caravaggio over de heilige Mattheüs, beroemd om hun dramatische licht.",
+      "foto_zoekterm": "San Luigi dei Francesi Rome"
+    },
+    "piazza_navona": {
+      "naam": "Piazza Navona",
+      "adres": "Piazza Navona, Roma",
+      "lat": 41.8992, "lng": 12.4731, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "tekst": "Het plein heeft de vorm van een antiek stadion en werd in de 17e eeuw omgevormd tot barokke ruimte. De Fontana dei Quattro Fiumi in het midden is van Bernini (1651). Aan de rand staat Sant'Agnese in Agone, een kerk van Borromini.",
+      "foto_zoekterm": "Piazza Navona fountain"
+    },
+    "castel_sangelo": {
+      "naam": "Tiber, Ponte Sant'Angelo en Castel Sant'Angelo (van buiten)",
+      "adres": "Lungotevere Castello, Roma",
+      "lat": 41.9018, "lng": 12.4668, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "tekst": "De brug werd door keizer Hadrianus gebouwd en kreeg in de 17e eeuw engelen naar ontwerp van Bernini. Het kasteel was oorspronkelijk Hadrianus' grafmonument en werd later een pauselijke vesting.",
+      "foto_zoekterm": "Castel Sant'Angelo Rome"
+    },
+    "terrazza_borromini": {
+      "naam": "Terrazza Borromini",
+      "adres": "Via di Santa Maria dell'Anima 30, 00186 Roma",
+      "telefoon": ["+39 391 311 4523", "+39 06 6821 5459"],
+      "lat": 41.8991, "lng": 12.4724,
+      "tekst": "Het dakterras van Palazzo Pamphilj kijkt uit over Piazza Navona en de koepel van Sant'Agnese. Dagelijks open van 12:00 tot middernacht. Een mooie plek voor de zonsondergang.",
+      "praktisch": "Reserveren via telefoon.",
+      "foto_zoekterm": "Terrazza Borromini Piazza Navona"
+    },
+    "grappolo_doro": {
+      "naam": "Hosteria Grappolo d'Oro",
+      "adres": "Piazza della Cancelleria 80, 00186 Roma",
+      "telefoon": ["+39 06 6897080"],
+      "lat": 41.8963, "lng": 12.4719, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "tekst": "Romeinse klassiekers zoals carbonara, cacio e pepe en amatriciana, vlak bij Campo de' Fiori en Piazza Navona. Het restaurant staat in de Michelin Guide met een Bib Gourmand voor goede kwaliteit tegen een redelijke prijs.",
+      "foto_zoekterm": "Piazza della Cancelleria Rome"
+    },
+    "doria_pamphilj": {
+      "naam": "Galleria Doria Pamphilj",
+      "adres": "Via del Corso 305, Roma",
+      "lat": 41.8981, "lng": 12.4812, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "tekst": "Een particuliere kunstcollectie in een paleis dat nog steeds van de familie is. Je ziet er werk van Caravaggio en het portret van paus Innocentius X door Velázquez.",
+      "praktisch": "Geboekt, zondag 10:00-11:30. Vanaf het hotel 20 minuten lopen (1,4 km).",
+      "foto_zoekterm": "Galleria Doria Pamphilj interior"
+    },
+    "romane": {
+      "naam": "Romanè",
+      "adres": "Via Cipro 106, Roma",
+      "telefoon": ["+39 340 784 5281"],
+      "telefoon_status": "uit recensie 2021, verifiëren",
+      "lat": 41.9077, "lng": 12.4479, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "tekst": "Het restaurant van Stefano Callegari, bekend als bedenker van de trapizzino. Het menu is een eerbetoon aan de Romeinse keuken, met onder meer fettuccine met vleessaus en abbacchio.",
+      "praktisch": "Let op: Romanè Armare (Via Cipro 61) is een ander restaurant.",
+      "foto_zoekterm": "Via Cipro Rome"
+    }
+  },
+
+  "dagen": [
+    {
+      "datum": "2026-11-13",
+      "label": "Vrijdag 13 november",
+      "blokken": [
+        {"id": "v1", "van": "11:55", "tot": "13:10", "titel": "Aankomst FCO", "locatie": "fco", "noot": "Reken 75 min buffer voor landing, taxi's en bagage."},
+        {"id": "v2", "van": "13:15", "tot": "14:05", "titel": "4 taxi's naar hotel", "van_loc": "fco", "naar_loc": "hotel_viminale", "vervoer": "taxi", "noot": "Officiële vaste prijs €55 per taxi. 4 taxi's voor de groep."},
+        {"id": "v3", "van": "14:05", "tot": "14:35", "titel": "Bagage afgeven / opfrissen", "locatie": "hotel_viminale", "noot": "Laat de receptie meteen 4 taxi's voor zondag 14:15 naar FCO vastzetten."},
+        {"id": "v4", "van": "14:40", "tot": "15:55", "titel": "Late lunch", "locatie": null, "status": "TE_BEPALEN"},
+        {"id": "v5", "van": "15:55", "tot": "16:15", "titel": "Wandeling naar San Clemente", "route": "r_v1"},
+        {"id": "v6", "van": "16:20", "tot": "17:10", "titel": "Ondergrondse lagen van Rome", "locatie": "san_clemente"},
+        {"id": "v7", "van": "17:10", "tot": "17:25", "titel": "Wandeling naar het Colosseum", "route": "r_v2", "noot": "Korte transfer te voet."},
+        {"id": "v8", "van": "17:25", "tot": "18:35", "titel": "Buitenroute klassiek Rome", "route": "r_v3", "locaties": ["colosseo", "fori_imperiali", "campidoglio"], "noot": "Geen ticketstress, wel maximaal effect in het gouden uur."},
+        {"id": "v9", "van": "18:35", "tot": "19:00", "titel": "Terug naar Monti", "route": "r_v4", "noot": "Te voet."},
+        {"id": "v10", "van": "19:00", "tot": "19:50", "titel": "Aperitivo", "locatie": "monti", "noot": "Staand of op terras; houd het licht."},
+        {"id": "v11", "van": "19:50", "tot": "20:15", "titel": "Terugloop / korte pauze", "locatie": "hotel_viminale", "noot": "Even naar het hotel indien gewenst."},
+        {"id": "v12", "van": "21:00", "tot": "23:30", "titel": "Diner", "locatie": "casa_bleve"},
+        {"id": "v13", "van": "22:30", "tot": "22:40", "titel": "Terug naar hotel", "van_loc": "casa_bleve", "naar_loc": "hotel_viminale", "status": "TIJD_TE_BEVESTIGEN", "noot": "Einde dag."}
+      ]
+    },
+    {
+      "datum": "2026-11-14",
+      "label": "Zaterdag 14 november",
+      "blokken": [
+        {"id": "z1", "van": "08:00", "tot": "09:00", "titel": "Ontbijt", "locatie": "hotel_viminale", "noot": "Vertrek compact houden; museum werkt op timeslots."},
+        {"id": "z2", "van": "09:15", "tot": "09:40", "titel": "4 taxi's naar TopBike", "vervoer": "taxi", "van_loc": "hotel_viminale", "naar_loc": "topbike"},
+        {"id": "z3", "van": "09:30", "tot": "13:30", "titel": "Bike fitting en veiligheidsbriefing", "locatie": "topbike", "noot": "Advies: e-bikes voor de hele groep, vanwege tempo en comfort."},
+        {"id": "z4", "van": "13:30", "tot": "13:45", "titel": "Fietsen inleveren en taxi terug", "vervoer": "taxi", "van_loc": "topbike", "naar_loc": "hotel_viminale", "noot": "Korte reset voor de avond."},
+        {"id": "z5", "van": "13:45", "tot": "14:15", "titel": "Douchen / omkleden", "locatie": "hotel_viminale", "noot": "Harde cut-off aanhouden om het avondprogramma strak te houden."},
+        {"id": "z6", "van": "14:30", "tot": "16:30", "titel": "Lunch", "locatie": "ai_fienaroli", "noot": "Ongeveer 20 minuten lopen naar de stadstour."},
+        {"id": "z7", "van": "17:00", "tot": "19:30", "titel": "Stadstour met gids Cris", "locatie": "piazza_di_spagna", "route": "r_z1", "locaties": ["piazza_di_spagna", "trevi", "pantheon", "saint_louis", "piazza_navona", "castel_sangelo", "terrazza_borromini"], "noot": "Verzamelen 17:00 op Piazza di Spagna, voor Babington's Tea Rooms, links van de Spaanse Trappen. Gids heeft een bordje met haar logo. Route: Spaanse Trappen, Trevifontein, Pantheon (van buiten), Saint-Louis-des-Français, Piazza Navona, de Tiber, Ponte en Castel Sant'Angelo (van buiten), via Via di Santa Maria dell'Anima naar Terrazza Borromini."},
+        {"id": "z8", "van": "19:30", "tot": "20:30", "titel": "Rooftop aperitivo", "locatie": "terrazza_borromini"},
+        {"id": "z9", "van": "20:35", "tot": "20:45", "titel": "Korte wandeling naar het restaurant", "route": "r_z2"},
+        {"id": "z10", "van": "21:30", "tot": "24:00", "titel": "Diner", "locatie": "grappolo_doro"}
+      ]
+    },
+    {
+      "datum": "2026-11-15",
+      "label": "Zondag 15 november",
+      "blokken": [
+        {"id": "x1", "van": "08:00", "tot": "09:00", "titel": "Ontbijt", "locatie": "hotel_viminale"},
+        {"id": "x2", "van": "09:00", "tot": "09:20", "titel": "Uitchecken en bagage stallen", "locatie": "hotel_viminale"},
+        {"id": "x3", "van": "09:25", "tot": "09:50", "titel": "Naar Galleria Doria Pamphilj", "vervoer": "taxi", "van_loc": "hotel_viminale", "naar_loc": "doria_pamphilj", "noot": "Te voet 20 minuten, 1,4 km."},
+        {"id": "x4", "van": "10:00", "tot": "11:30", "titel": "Galleria Doria Pamphilj", "locatie": "doria_pamphilj", "noot": "Geboekt."},
+        {"id": "x5", "van": "11:45", "tot": "12:00", "titel": "4 taxi's naar Romanè", "vervoer": "taxi", "van_loc": "doria_pamphilj", "naar_loc": "romane"},
+        {"id": "x6", "van": "12:00", "tot": "13:35", "titel": "Afscheidslunch", "locatie": "romane", "noot": "Sterke slotlunch, centraal en efficiënt."},
+        {"id": "x7", "van": "13:35", "tot": "13:55", "titel": "4 taxi's naar hotel", "vervoer": "taxi", "van_loc": "romane", "naar_loc": "hotel_viminale"},
+        {"id": "x8", "van": "14:00", "tot": "14:15", "titel": "Bagage ophalen / toilet / laatste check", "locatie": "hotel_viminale"},
+        {"id": "x9", "van": "14:15", "tot": "15:05", "titel": "4 taxi's naar FCO", "vervoer": "taxi", "van_loc": "hotel_viminale", "naar_loc": "fco", "noot": "Vlucht is 17:15 en we zijn er om 15:00."},
+        {"id": "x10", "van": "15:05", "tot": "17:15", "titel": "Check-in, security en boarding", "locatie": "fco"}
+      ]
+    }
+  ],
+
+  "routes": {
+    "r_v1": {"titel": "Naar San Clemente", "modus": "walking", "van": "TE_BEPALEN (late lunch)", "naar": "san_clemente", "streetview_stops": []},
+    "r_v2": {"titel": "San Clemente naar Colosseum", "modus": "walking", "van": "san_clemente", "naar": "colosseo", "streetview_stops": ["san_clemente", "colosseo"]},
+    "r_v3": {"titel": "Colosseum, Via dei Fori Imperiali, Campidoglio", "modus": "walking", "van": "colosseo", "tussen": ["fori_imperiali"], "naar": "campidoglio", "streetview_stops": ["colosseo", "fori_imperiali", "campidoglio"]},
+    "r_v4": {"titel": "Campidoglio naar Monti", "modus": "walking", "van": "campidoglio", "naar": "monti", "streetview_stops": ["campidoglio", "monti"]},
+    "r_z1": {"titel": "Stadstour: Spaanse Trappen naar Terrazza Borromini", "modus": "walking", "van": "piazza_di_spagna", "tussen": ["trevi", "pantheon", "saint_louis", "piazza_navona", "castel_sangelo"], "naar": "terrazza_borromini", "streetview_stops": ["piazza_di_spagna", "trevi", "pantheon", "saint_louis", "piazza_navona", "castel_sangelo", "terrazza_borromini"]},
+    "r_z2": {"titel": "Terrazza Borromini naar Grappolo d'Oro", "modus": "walking", "van": "terrazza_borromini", "naar": "grappolo_doro", "streetview_stops": ["terrazza_borromini", "grappolo_doro"]}
+  },
+
+  "praktisch": {
+    "taxi": "Officiële vaste prijs vanaf FCO naar het centrum: €55 per taxi. 4 taxi's voor de groep.",
+    "noodnummer": "112",
+    "hotel": "hotel_viminale",
+    "fotoverantwoording": "Foto's alleen van Wikimedia Commons, Unsplash, Pexels of Pixabay; bronvermelding per foto bewaren.",
+    "taxi_aantal": 4,
+    "taxi_afspraak": "Zondag 15 november om 14:15 vertrekken 4 taxi's van het hotel naar FCO. De receptie zet ze vast.",
+    "apotheek": {
+      "naam": "Farmacia Piram (24 uur open)",
+      "adres": "Via Nazionale 228, 00184 Roma",
+      "telefoon": ["+39 06 488 0754"],
+      "lat": 41.9006, "lng": 12.4940,
+      "status": "TE_BEVESTIGEN",
+      "noot": "Ongeveer 5 minuten lopen van het hotel. Placeholder: openingstijden en nummer controleren."
+    },
+    "ziekenhuis": {
+      "naam": "Policlinico Umberto I (Pronto Soccorso / spoedeisende hulp)",
+      "adres": "Viale del Policlinico 155, 00161 Roma",
+      "lat": 41.9066, "lng": 12.5113,
+      "status": "TE_BEVESTIGEN",
+      "noot": "Groot academisch ziekenhuis, ongeveer 2 km van het hotel. Bij spoed altijd eerst 112 bellen."
+    }
+  },
+
+  "extra": {
+    "opmerking": "Aanvullingen door de app-ontwikkelaar (nice to have). Vrij aan te passen of te verwijderen.",
+    "plan_b": {
+      "2026-11-13": "Regen tijdens de buitenroute? Ga vanaf het Campidoglio de Capitolijnse Musea in (zelfde plein, kaartjes ter plekke). San Clemente is al binnen.",
+      "2026-11-14": "Fietsen bij regen: overleg 's ochtends met TopBike over uitstel of regenponcho's. Alternatief dichtbij het hotel: Palazzo Massimo (Museo Nazionale Romano, Largo di Villa Peretti 2). Tijdens de stadstour kan het Pantheon naar binnen (€5).",
+      "2026-11-15": "Het programma is grotendeels binnen. Neem een paraplu mee voor de korte stukken buiten."
+    },
+    "zinnen": [
+      {"it": "Buongiorno / Buonasera", "nl": "Goedemorgen / Goedenavond", "uitspraak": "bwon-DZJOR-no / bwo-na-SE-ra"},
+      {"it": "Per favore", "nl": "Alstublieft (bij vragen)", "uitspraak": "per fa-VO-re"},
+      {"it": "Grazie (mille)", "nl": "Dank je (wel)", "uitspraak": "GRAT-sie (MIEL-le)"},
+      {"it": "Un tavolo per sedici, per favore.", "nl": "Een tafel voor zestien, alstublieft.", "uitspraak": "oen TA-vo-lo per SE-di-tsji"},
+      {"it": "Abbiamo una prenotazione.", "nl": "We hebben gereserveerd.", "uitspraak": "ab-BJA-mo OE-na pre-no-tat-SJO-ne"},
+      {"it": "Il conto, per favore.", "nl": "De rekening, alstublieft.", "uitspraak": "iel KON-to"},
+      {"it": "Posso pagare con la carta?", "nl": "Kan ik met de kaart betalen?", "uitspraak": "POS-so pa-GA-re kon la KAR-ta"},
+      {"it": "Dov'è il bagno?", "nl": "Waar is het toilet?", "uitspraak": "do-VE iel BAN-jo"},
+      {"it": "Un caffè e un cornetto.", "nl": "Een espresso en een croissant.", "uitspraak": "oen kaf-FE e oen kor-NET-to"},
+      {"it": "Acqua naturale / frizzante", "nl": "Water zonder / met prik", "uitspraak": "AK-kwa na-toe-RA-le / friet-SAN-te"},
+      {"it": "Mi scusi", "nl": "Pardon", "uitspraak": "mie SKOE-zie"},
+      {"it": "Aiuto!", "nl": "Help!", "uitspraak": "a-JOE-to"}
+    ]
+  }
+}

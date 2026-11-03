@@ -1,0 +1,6 @@
+{
+  "_uitleg": "Per locatie-id: 'uitsluiten' = lijst met Commons-bestandsnamen (File:...) die je niet wilt; 'vast' = bestanden die je juist wél wilt; 'zoekterm' = andere zoekterm dan in programma.json.",
+  "casa_bleve": { "zoekterm": "Via del Teatro Valle Rome" },
+  "ai_fienaroli": { "zoekterm": "Via Sardegna Roma" },
+  "topbike": { "zoekterm": "Colosseum Via Labicana Rome" }
+}

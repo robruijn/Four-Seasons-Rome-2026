@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Rome met de groep</title>
+    <meta name="description" content="Digitale reisgids voor de groepsreis naar Rome, 13 t/m 15 november 2026." />
+    <!-- Besloten groepslink: niet laten indexeren door zoekmachines -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#a8462a" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#14110e" media="(prefers-color-scheme: dark)" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Rome" />
+    <link rel="icon" href="./icons/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <style>
+      /* Kritieke stijl: geen witte flits vóór de CSS geladen is */
+      html { background: #f5efe4; }
+      @media (prefers-color-scheme: dark) { html { background: #14110e; } }
+      .start { min-height: 100vh; display: grid; place-items: center; font-family: Georgia, serif; color: #a8462a; font-size: 1.6rem; }
+    </style>
+  </head>
+  <body>
+    <div id="app"><div class="start" role="status">Rome met de groep…</div></div>
+    <noscript>Deze reis-app heeft JavaScript nodig. Zet JavaScript aan in je browser.</noscript>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
