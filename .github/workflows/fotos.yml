@@ -1,7 +1,10 @@
-# Handmatig te starten (tab Actions > "Foto's ophalen" > Run workflow).
+# Handmatig te starten (tab Actions > "Foto's ophalen" > Run workflow),
+# of automatisch zodra scripts/fotos-keuze.json wordt aangepast.
 # Haalt vrij gelicentieerde foto's op van Wikimedia Commons en commit ze naar de gekozen branch.
 name: Foto's ophalen
 on:
+  push:
+    paths: ['scripts/fotos-keuze.json']
   workflow_dispatch:
     inputs:
       opties:
@@ -22,7 +25,7 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npm run fotos -- ${{ github.event.inputs.opties }}
+      - run: npm run fotos -- ${{ github.event.inputs.opties || '' }}
       - name: Commit foto's
         run: |
           git config user.name "github-actions[bot]"
