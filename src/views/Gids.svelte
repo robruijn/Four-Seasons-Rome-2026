@@ -49,7 +49,7 @@
     <h1 tabindex="-1">{d.meta.titel}</h1>
     <p class="periode">Vrijdag 13 t/m zondag 15 november 2026</p>
     {#if d.meta.welkom}<p class="welkom">{d.meta.welkom}</p>{/if}
-    <p class="applink">Ook als app op je telefoon: <a href="https://robruijn.github.io/rdb.test/">robruijn.github.io/rdb.test</a></p>
+    <p class="applink">Ook als app op je telefoon: <a href="https://robruijn.github.io/Four-Seasons-Rome-2026/">robruijn.github.io/Four-Seasons-Rome-2026</a></p>
   </header>
 
   <!-- Belangrijk -->

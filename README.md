@@ -67,7 +67,7 @@ public/programma.json   de inhoud
 2. GitHub → **Settings → Pages → Source: GitHub Actions**.
 3. GitHub → **Settings → Secrets and variables → Actions → tabblad Variables**: voeg `VITE_GOOGLE_MAPS_KEY` toe
    (en eventueel `VITE_GOOGLE_MAP_ID`, `VITE_GROEPSCODE_HASH`).
-4. Elke push naar `main` bouwt en publiceert automatisch (workflow *Publiceren*). Adres: `https://robruijn.github.io/rdb.test/`.
+4. Elke push naar `main` bouwt en publiceert automatisch (workflow *Publiceren*). Adres: `https://robruijn.github.io/Four-Seasons-Rome-2026/`.
 
 GitHub Pages is gratis voor openbare repositories; voor een privé-repository is een betaald GitHub-abonnement nodig.
 Alternatief: **Netlify** (gratis, ook voor privé-repo's): build command `npm run build`, publish directory `dist`,

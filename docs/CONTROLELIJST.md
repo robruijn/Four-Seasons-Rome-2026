@@ -32,7 +32,7 @@ Stand: 3 november 2026 (bijgewerkt na antwoorden opdrachtgever). Actuele lijst: 
 - [ ] Na de livegang: kaart en Street View testen op een echte iPhone en Android.
 - [ ] Foto's nog eens doorlopen op de pagina Fotoverantwoording (45 foto's, al een keer beoordeeld); ongeschikte foto's uitsluiten via `scripts/fotos-keuze.json`.
 - [ ] Eigen (rechtenvrije) foto's van Casa Bleve, Ai Fienaroli, Romanè en Hotel Viminale? Die tonen nu een illustratie.
-- [ ] QR-code opnieuw maken als het adres anders wordt dan `https://robruijn.github.io/rdb.test/` (`npm run qr -- <url>`).
+- [ ] QR-code opnieuw maken als het adres anders wordt dan `https://robruijn.github.io/Four-Seasons-Rome-2026/` (`npm run qr -- <url>`).
 - [ ] `meta.laatst_gecontroleerd` bijwerken na de laatste controle van prijzen en tijden.
 
 - [ ] Na elke wijziging in `programma.json` de PDF-reisgids opnieuw maken (`npm run pdf`, zie BEHEER.md).

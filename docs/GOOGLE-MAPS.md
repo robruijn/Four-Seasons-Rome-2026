@@ -44,7 +44,7 @@ controleer [de prijslijst van Google](https://developers.google.com/maps/billing
 2. **Facturering**: koppel een factureringsaccount (Billing).
 3. **API's inschakelen** (APIs & Services → Library): *Maps JavaScript API*, *Routes API*, *Geocoding API*.
 4. **Browsersleutel** (APIs & Services → Credentials → Create credentials → API key):
-   - *Application restrictions* → **Websites** (HTTP-referrers): `https://robruijn.github.io/rdb.test/*`
+   - *Application restrictions* → **Websites** (HTTP-referrers): `https://robruijn.github.io/Four-Seasons-Rome-2026/*`
      (en tijdelijk `http://localhost:5173/*` voor testen, of maak daarvoor een aparte ontwikkelsleutel).
    - *API restrictions* → **Restrict key**: alleen *Maps JavaScript API* en *Routes API*.
    - Zet deze sleutel in GitHub als variabele `VITE_GOOGLE_MAPS_KEY` (zie README). Een browsersleutel staat altijd

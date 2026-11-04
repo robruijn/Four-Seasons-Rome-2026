@@ -1,4 +1,4 @@
-// `npm run qr -- https://robruijn.github.io/rdb.test/` – maakt een QR-code (SVG en PNG)
+// `npm run qr -- https://robruijn.github.io/Four-Seasons-Rome-2026/` – maakt een QR-code (SVG en PNG)
 // in docs/, om te printen of in de groepsapp te delen.
 import QRCode from 'qrcode';
 import { mkdirSync } from 'node:fs';

@@ -18,7 +18,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, unlinkSync } from 'node:fs';
 import sharp from 'sharp';
 
-const UA = 'RomeGroepsreisApp/1.0 (https://github.com/robruijn/rdb.test; fotoselectie voor besloten reis-app)';
+const UA = 'RomeGroepsreisApp/1.0 (https://github.com/robruijn/Four-Seasons-Rome-2026; fotoselectie voor besloten reis-app)';
 const API = 'https://commons.wikimedia.org/w/api.php';
 const PER_LOCATIE = 3;
 

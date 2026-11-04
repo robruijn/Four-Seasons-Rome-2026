@@ -1,7 +1,7 @@
 # Rome met de groep – zo zet je de app op je telefoon
 
 Scan de QR-code of open de link uit de groepsapp:
-**https://robruijn.github.io/rdb.test/**
+**https://robruijn.github.io/Four-Seasons-Rome-2026/**
 
 <img src="qr-code.png" alt="QR-code naar de reis-app" width="220">
 

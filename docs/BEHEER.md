@@ -56,7 +56,7 @@ een `geo_bron` met "handmatig" worden nooit als zekerheid getoond: deelnemers zi
 bijvoorbeeld "Adres nog te controleren".
 
 Een overzicht van alles wat nog openstaat:
-- in de app: ga naar `…/rdb.test/#/beheer` (staat niet in het menu);
+- in de app: ga naar `…/Four-Seasons-Rome-2026/#/beheer` (staat niet in het menu);
 - op de computer: `npm run check`.
 
 `open_vragen` in het bestand is alleen voor jou; de app toont die nooit.
