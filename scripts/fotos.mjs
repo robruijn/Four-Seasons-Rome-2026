@@ -42,6 +42,14 @@ const LICENTIE_OK = /^(CC0|Public domain|PD|CC BY(-SA)? \d(\.\d)?( [a-z-]+)?)$/i
 const NAAM_NIET = /selfie|people|person|crowd|tourist|logo|map|plan|drawing|engraving|painting|coin|stamp|interior detail of ticket|night_?club/i;
 
 const schoon = (html = '') => html.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+// Sommige makers zetten een hele gebruikstekst in het veld "Artist"; houd alleen de naam.
+function makerNaam(t) {
+  if (!t) return 'Onbekend';
+  const door = /taken by ([^.,;]+)/i.exec(t);
+  if (door) return door[1].trim();
+  const kort = t.split(/\.\s|\n/)[0].trim();
+  return kort.length > 60 ? kort.slice(0, 57) + '…' : kort;
+}
 const pauze = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function api(params) {
@@ -103,7 +111,7 @@ async function bewaar(id, n, f) {
     hoogte: meta.height,
     titel: schoon(m.ObjectName?.value) || f.titel.replace(/^File:|\.\w+$/g, ''),
     alt: schoon(m.ImageDescription?.value).slice(0, 140) || null,
-    maker: schoon(m.Artist?.value) || 'Onbekend',
+    maker: makerNaam(schoon(m.Artist?.value)),
     bron: 'Wikimedia Commons',
     bron_url: f.descriptionurl,
     licentie: m.LicenseShortName?.value,

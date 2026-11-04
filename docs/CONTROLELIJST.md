@@ -7,7 +7,7 @@ Stand: 3 november 2026 (bijgewerkt na antwoorden opdrachtgever). Actuele lijst: 
 - [x] **Groepsgrootte**: 16 personen (4 taxi's).
 - [x] **Vrijdag diner**: terugrit 22:30 klopt; het diner loopt nu van 21:00 tot 22:30.
 - [ ] **Vrijdag terugrit**: oorspronkelijk stond 'La Matriciana'; aangenomen is Casa Bleve. Klopt dat?
-- [ ] **Vrijdag late lunch** (14:40–15:55): nader te bepalen. Daarmee ontbreekt ook het vertrekpunt van route r_v1 naar San Clemente. Invullen volgens BEHEER.md.
+- [x] **Vrijdag late lunch**: Taverna Urbana, Via Urbana 136. Coördinaten handmatig ingevuld; verifiëren met `npm run geocode`.
 - [x] **Zaterdag**: de taxirit loopt van 09:15 tot 09:30; geen overlap meer met het fietsen.
 - [ ] **Zaterdag**: douche-blok stond als 13:34, aangenomen 13:45.
 - [x] **Zondag 09:25** naar Galleria Doria Pamphilj: met de taxi.
@@ -22,8 +22,6 @@ Stand: 3 november 2026 (bijgewerkt na antwoorden opdrachtgever). Actuele lijst: 
 - [ ] **Babington's Tea Rooms**: Piazza di Spagna 23 verifiëren (verzamelpunt stadstour).
 - [ ] **Hotel Viminale**: twee telefoonnummers (+39 06 84030333 en +39 06 4881980); één keer bellen en het juiste houden.
 - [x] **Reisleiders**: Robert +31 6 16839022, Bas +31 6 21864173.
-- [ ] **Apotheek** (placeholder): Farmacia Piram, Via Nazionale 228, 24 uur open, +39 06 488 0754. Openingstijden en nummer bevestigen.
-- [ ] **Ziekenhuis** (placeholder): Policlinico Umberto I, Viale del Policlinico 155 (spoedeisende hulp). Bevestigen.
 - [ ] **Coördinaten**: 16 locaties zijn handmatig ingevuld (op ca. 20–50 m nauwkeurig). Draai `npm run geocode` met een Google-sleutel voor de definitieve waarden.
 - [ ] **Groepsreserveringen** bevestigen: Casa Bleve, Terrazza Borromini (telefonisch), Grappolo d'Oro, Ai Fienaroli, Romanè.
 
@@ -36,3 +34,5 @@ Stand: 3 november 2026 (bijgewerkt na antwoorden opdrachtgever). Actuele lijst: 
 - [ ] Eigen (rechtenvrije) foto's van Casa Bleve, Ai Fienaroli, Romanè en Hotel Viminale? Die tonen nu een illustratie.
 - [ ] QR-code opnieuw maken als het adres anders wordt dan `https://robruijn.github.io/rdb.test/` (`npm run qr -- <url>`).
 - [ ] `meta.laatst_gecontroleerd` bijwerken na de laatste controle van prijzen en tijden.
+
+- [ ] Na elke wijziging in `programma.json` de PDF-reisgids opnieuw maken (`npm run pdf`, zie BEHEER.md).

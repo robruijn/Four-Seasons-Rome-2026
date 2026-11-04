@@ -192,7 +192,7 @@
       "label": "Vrijdag 13 november",
       "blokken": [
         {"id": "v1", "van": "11:55", "tot": "13:10", "titel": "Aankomst FCO", "locatie": "fco"},
-        {"id": "v2", "van": "13:15", "tot": "14:05", "titel": "4 taxi's naar hotel", "van_loc": "fco", "naar_loc": "hotel_viminale", "vervoer": "taxi", "noot": "4 taxi's voor de groep."},
+        {"id": "v2", "van": "13:15", "tot": "14:05", "titel": "4 taxi's naar hotel", "van_loc": "fco", "naar_loc": "hotel_viminale", "vervoer": "taxi"},
         {"id": "v3", "van": "14:05", "tot": "14:35", "titel": "Bagage afgeven / opfrissen", "locatie": "hotel_viminale"},
         {"id": "v4", "van": "14:40", "tot": "15:55", "titel": "Late lunch", "locatie": "taverna_urbana"},
         {"id": "v5", "van": "15:55", "tot": "16:15", "titel": "Wandeling naar San Clemente", "route": "r_v1"},
@@ -228,7 +228,7 @@
       "blokken": [
         {"id": "x1", "van": "08:00", "tot": "09:00", "titel": "Ontbijt", "locatie": "hotel_viminale"},
         {"id": "x2", "van": "09:00", "tot": "09:20", "titel": "Uitchecken en bagage stallen", "locatie": "hotel_viminale"},
-        {"id": "x3", "van": "09:25", "tot": "09:50", "titel": "Naar Galleria Doria Pamphilj", "vervoer": "taxi", "van_loc": "hotel_viminale", "naar_loc": "doria_pamphilj", "noot": "4 taxi's. Lopen kan ook: 20 minuten, 1,4 km."},
+        {"id": "x3", "van": "09:25", "tot": "09:50", "titel": "Naar Galleria Doria Pamphilj", "vervoer": "taxi", "van_loc": "hotel_viminale", "naar_loc": "doria_pamphilj", "noot": "Lopen kan ook: 20 minuten, 1,4 km."},
         {"id": "x4", "van": "10:00", "tot": "11:30", "titel": "Galleria Doria Pamphilj", "locatie": "doria_pamphilj", "noot": "Geboekt."},
         {"id": "x5", "van": "11:45", "tot": "12:00", "titel": "4 taxi's naar Romanè", "vervoer": "taxi", "van_loc": "doria_pamphilj", "naar_loc": "romane"},
         {"id": "x6", "van": "12:00", "tot": "13:35", "titel": "Afscheidslunch", "locatie": "romane"},

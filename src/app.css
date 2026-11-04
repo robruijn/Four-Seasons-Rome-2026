@@ -193,7 +193,7 @@ dl.feiten dd { margin: 0; font-weight: 600; }
     --groen: #24443a; --groen-zacht: #dbe6dd; --geel-zacht: #fbeec3; --geel-rand: #8a6400; --schaduw: none;
   }
   @page { size: A4; margin: 14mm 14mm 16mm; }
-  body { background: #fff; }
+  html, body { background: #fff !important; }
   .tabbalk, .statusbalk, .toast, .skip { display: none !important; }
   .pagina { padding-bottom: 0 !important; }
 }

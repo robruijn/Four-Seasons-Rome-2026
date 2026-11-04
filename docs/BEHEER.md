@@ -68,3 +68,9 @@ als WebP en werken dus offline. Ophalen: tab *Actions* → *Foto's ophalen* → 
 `npm run fotos`. Een foto niet mooi? Zet de bestandsnaam (te zien via de link "Wikimedia Commons" onder de foto)
 in `scripts/fotos-keuze.json` bij `uitsluiten` en haal die locatie opnieuw op (bijv. `colosseo` als optie).
 Wijzigen van `fotos-keuze.json` start de workflow ook automatisch. Controleer daarna de pagina *Info → Fotoverantwoording*.
+
+## Reisgids als PDF (om te mailen)
+
+De pagina `#/gids` in de app toont de hele reisgids op één pagina (ook via Info → "Hele reisgids").
+Iedereen kan die zelf afdrukken of als PDF bewaren. Een kant-en-klare PDF staat in `docs/Reisgids-Rome-2026.pdf`.
+Opnieuw maken na een wijziging: `npm run build`, dan `npm run preview` en in een tweede venster `npm run pdf`.

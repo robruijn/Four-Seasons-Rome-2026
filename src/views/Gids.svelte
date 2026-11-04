@@ -52,7 +52,7 @@
   </header>
 
   <!-- Belangrijk -->
-  <section class="blok-sectie">
+  <section class="blok-sectie belangrijk">
     <h2>Belangrijke gegevens</h2>
     <dl class="feiten">
       <dt>Noodnummer</dt><dd><a href="tel:112">112</a> (politie, ambulance, brandweer)</dd>
@@ -110,7 +110,7 @@
     <h2>De plekken</h2>
     {#each plekken as l}
       {@const f = fotosVan(l.id)[0]}
-      <article class="plekkaart">
+      <article class="plekkaart" class:zonder={!f}>
         {#if f}<img src={`./fotos/${f.bestand}-400.webp`} alt="" width="400" height="267" loading="lazy" />{/if}
         <div>
           <h3>{l.naam}</h3>
@@ -208,6 +208,7 @@
   .label { margin-left: 0.4rem; }
   .planb { margin-top: 0.75rem; padding: 0.6rem 0.8rem; background: var(--vlak-2); border-radius: 10px; font-size: 0.9375rem; break-inside: avoid; }
   .plekkaart { display: grid; grid-template-columns: 9rem 1fr; gap: 1rem; padding: 0.8rem 0; border-bottom: 1px solid var(--lijn); break-inside: avoid; }
+  .plekkaart.zonder { grid-template-columns: 1fr; }
   .plekkaart img { width: 9rem; height: 6rem; object-fit: cover; border-radius: 8px; }
   .plekkaart h3 { margin-bottom: 0.15rem; }
   .plekkaart p { margin: 0 0 0.35rem; font-size: 0.9875rem; }
@@ -230,7 +231,8 @@
   @media print {
     .scherm-alleen { display: none; }
     .gids { max-width: none; padding: 0; font-size: 10.5pt; }
-    .omslag { page-break-after: always; padding-top: 2cm; }
+    .omslag { padding-top: 0.5cm; }
+    .omslag img { max-height: 9cm; }
     .dag, .nieuwe-pagina { break-before: page; }
     h2 { margin-top: 0; }
     a { color: inherit; text-decoration: none; }
