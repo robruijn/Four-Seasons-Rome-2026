@@ -31,6 +31,10 @@ jobs:
           VITE_GOOGLE_MAPS_KEY: ${{ vars.VITE_GOOGLE_MAPS_KEY }}
           VITE_GOOGLE_MAP_ID: ${{ vars.VITE_GOOGLE_MAP_ID }}
           VITE_GROEPSCODE_HASH: ${{ vars.VITE_GROEPSCODE_HASH }}
+      # Zet GitHub Pages aan als dat nog niet gebeurd is (bron: GitHub Actions).
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
