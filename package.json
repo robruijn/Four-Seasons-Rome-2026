@@ -14,7 +14,8 @@
     "iconen": "node scripts/iconen.mjs",
     "qr": "node scripts/qr.mjs",
     "groepscode": "node scripts/groepscode.mjs",
-    "pdf": "node scripts/pdf.mjs"
+    "pdf": "node scripts/pdf.mjs",
+    "html": "node scripts/html.mjs"
   },
   "devDependencies": {
     "@fontsource/cormorant-garamond": "^5.3.0",

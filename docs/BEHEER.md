@@ -74,3 +74,9 @@ Wijzigen van `fotos-keuze.json` start de workflow ook automatisch. Controleer da
 De pagina `#/gids` in de app toont de hele reisgids op één pagina (ook via Info → "Hele reisgids").
 Iedereen kan die zelf afdrukken of als PDF bewaren. Een kant-en-klare PDF staat in `docs/Reisgids-Rome-2026.pdf`.
 Opnieuw maken na een wijziging: `npm run build`, dan `npm run preview` en in een tweede venster `npm run pdf`.
+
+## Reisgids als HTML-bestand (om te mailen of via WhatsApp te delen)
+
+`docs/Reisgids-Rome-2026.html` is de reisgids als één bestand zonder JavaScript, met foto's en lettertype erin
+(ca. 0,6 MB). Het opent in de voorvertoning van Mail en WhatsApp en in elke browser, ook offline.
+Opnieuw maken: net als de PDF, maar dan met `npm run html`.
