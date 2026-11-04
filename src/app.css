@@ -184,3 +184,16 @@ dl.feiten dd { margin: 0; font-weight: 600; }
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
 }
+
+/* Afdrukken / PDF: altijd lichte kleuren, geen navigatie of meldingen */
+@media print {
+  :root {
+    --bg: #ffffff; --vlak: #ffffff; --vlak-2: #f3ece0; --tekst: #1d1915; --tekst-2: #4f463d;
+    --lijn: #cbbda7; --terra: #a8462a; --terra-tekst: #ffffff; --terra-zacht: #f3dcd0;
+    --groen: #24443a; --groen-zacht: #dbe6dd; --geel-zacht: #fbeec3; --geel-rand: #8a6400; --schaduw: none;
+  }
+  @page { size: A4; margin: 14mm 14mm 16mm; }
+  body { background: #fff; }
+  .tabbalk, .statusbalk, .toast, .skip { display: none !important; }
+  .pagina { padding-bottom: 0 !important; }
+}

@@ -9,6 +9,16 @@
   const d = $derived(app.data);
   const extra = $derived(d.extra ?? {});
   let tabOs = $state(platform === 'android' ? 'android' : 'ios');
+
+  // Paklijst: afvinken wordt alleen op dit toestel bewaard.
+  const PAK = 'rome-paklijst-v1';
+  let ingepakt = $state((() => {
+    try { return JSON.parse(localStorage.getItem(PAK) ?? '{}'); } catch { return {}; }
+  })());
+  function vink(sleutel) {
+    ingepakt[sleutel] = !ingepakt[sleutel];
+    try { localStorage.setItem(PAK, JSON.stringify(ingepakt)); } catch { /* geen opslag */ }
+  }
 </script>
 
 <main class="pagina">
@@ -46,6 +56,31 @@
       <p class="klein">Open de app daarna één keer met internet, dan werkt alles behalve de kaart en Street View ook offline.</p>
     {/if}
   </section>
+
+  <!-- Paklijst -->
+  {#if extra.paklijst?.length}
+    <section aria-labelledby="h-pak">
+      <h2 id="h-pak" class="sectie-titel"><Icon naam="vink" /> Paklijst</h2>
+      {#if extra.paklijst_intro}<p>{extra.paklijst_intro}</p>{/if}
+      {#each extra.paklijst as g}
+        <div class="kaart pak">
+          <h3>{g.groep}</h3>
+          <ul>
+            {#each g.items as item}
+              {@const k = g.groep + '|' + item}
+              <li>
+                <label>
+                  <input type="checkbox" checked={!!ingepakt[k]} onchange={() => vink(k)} />
+                  <span>{item}</span>
+                </label>
+              </li>
+            {/each}
+          </ul>
+        </div>
+      {/each}
+      <p class="klein">Afvinken wordt alleen op je eigen telefoon bewaard.</p>
+    </section>
+  {/if}
 
   <!-- Weer -->
   <section aria-labelledby="h-weer">
@@ -91,6 +126,7 @@
   <section aria-labelledby="h-over">
     <h2 id="h-over" class="sectie-titel"><Icon naam="info" /> Over deze app</h2>
     <ul class="links">
+      <li><a href="#/gids"><Icon naam="programma" /> Hele reisgids (afdrukken of PDF) <Icon naam="verder" /></a></li>
       <li><a href="#/fotos"><Icon naam="camera" /> Fotoverantwoording <Icon naam="verder" /></a></li>
     </ul>
     <p class="klein">
@@ -124,6 +160,11 @@
   .zin dt { font-family: var(--serif); font-size: 1.3rem; font-weight: 700; color: var(--terra); }
   .zin dd { margin: 0; }
   .uitspraak { display: block; font-style: italic; }
+  .pak h3 { margin-bottom: 0.3rem; }
+  .pak ul { list-style: none; padding: 0; margin: 0; }
+  .pak label { display: flex; gap: 0.7rem; align-items: center; min-height: 2.75rem; cursor: pointer; }
+  .pak input { width: 1.4rem; height: 1.4rem; flex: none; accent-color: var(--groen); }
+  .pak input:checked + span { text-decoration: line-through; color: var(--tekst-2); }
   .links { list-style: none; padding: 0; margin: 0 0 0.75rem; }
   .links a {
     display: grid; grid-template-columns: auto 1fr auto; gap: 0.6rem; align-items: center;

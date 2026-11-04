@@ -3,7 +3,8 @@
   import Icon from '../components/Icon.svelte';
   import NuStraks from '../components/NuStraks.svelte';
   import Weer from '../components/Weer.svelte';
-  import { app, loc, statusLabel, vervoerVan, VERVOER_LABEL, alleBlokken } from '../lib/data.svelte.js';
+  import { app, loc, statusLabel, vervoerVan, VERVOER_LABEL, alleBlokken, looptijdTussen, routeMaat } from '../lib/data.svelte.js';
+  import { meterTekst, minutenTekst } from '../lib/geo.js';
   import { klok, route } from '../lib/staat.svelte.js';
   import { datumVan } from '../lib/tijd.js';
 
@@ -65,6 +66,10 @@
     <h1 tabindex="-1">Programma</h1>
   </header>
 
+  {#if app.data.meta.welkom}
+    <p class="welkom">{app.data.meta.welkom}</p>
+  {/if}
+
   <NuStraks />
 
   <div class="tabs" role="tablist" aria-label="Kies een dag">
@@ -90,7 +95,13 @@
     </div>
 
     <ol class="tijdlijn">
-      {#each dag.blokken as b (b.id)}
+      {#each dag.blokken as b, i (b.id)}
+        {@const loop = looptijdTussen(dag.blokken[i - 1], b)}
+        {#if loop}
+          <li class="loop" aria-label={`Lopen naar ${loop.naar.naam}: ongeveer ${minutenTekst(loop.minuten)}`}>
+            <span class="loopTekst"><Icon naam="voet" maat={18} /> ca. {minutenTekst(loop.minuten)} lopen ({meterTekst(loop.meters)})</span>
+          </li>
+        {/if}
         {@const st = statusLabel(b.status)}
         {@const vv = vervoerVan(b)}
         {@const huidig = b.id === huidigId}
@@ -107,7 +118,11 @@
               {#if b.noot}<span class="noot">{b.noot}</span>{/if}
               <span class="tags">
                 {#if vv}<span class="vervoer"><Icon naam={vv === 'walking' ? 'voet' : vv} maat={18} /> {VERVOER_LABEL[vv] ?? vv}</span>{/if}
-                {#if b.route}<span class="vervoer"><Icon naam="oog" maat={18} /> Route en Street View</span>{/if}
+                {#if b.route}
+                  {@const rm = routeMaat(b.route)}
+                  {#if rm}<span class="vervoer"><Icon naam="klok" maat={18} /> ca. {minutenTekst(rm.minuten)} ({meterTekst(rm.meters)})</span>{/if}
+                  <span class="vervoer"><Icon naam="oog" maat={18} /> Route en Street View</span>
+                {/if}
                 {#if st}<span class="label"><Icon naam="let_op" maat={14} /> {st}</span>{/if}
               </span>
             </span>
@@ -120,6 +135,19 @@
 </main>
 
 <style>
+  .welkom {
+    font-family: var(--serif); font-size: 1.3rem; line-height: 1.35;
+    margin: 0.2rem 0 1rem; color: var(--tekst);
+  }
+  .tijdlijn li.loop { margin: -0.15rem 0 0.45rem; }
+  .tijdlijn li.loop::before { display: none; }
+  .loopTekst {
+    display: inline-flex; align-items: center; gap: 0.35rem;
+    margin-left: 4.1rem; padding: 0.2rem 0.7rem;
+    background: var(--bg); border: 1.5px dashed var(--lijn); border-radius: 999px;
+    font-size: 0.875rem; font-weight: 650; color: var(--groen);
+    position: relative; z-index: 1;
+  }
   .boventitel {
     margin: 0; color: var(--terra);
     font-weight: 750; font-size: 0.875rem; letter-spacing: 0.1em; text-transform: uppercase;

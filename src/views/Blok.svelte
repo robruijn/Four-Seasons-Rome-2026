@@ -54,7 +54,7 @@
           {#if van}<li><span class="klein">Van</span> <a href={'#/locatie/' + van.id}>{van.naam}</a><br /><span class="klein">{van.adres}</span></li>{/if}
           {#if naar}<li><span class="klein">Naar</span> <a href={'#/locatie/' + naar.id}>{naar.naam}</a><br /><span class="klein">{naar.adres}</span></li>{/if}
         </ol>
-        {#if vv === 'taxi' && app.data.praktisch.taxi}<p class="klein">{app.data.praktisch.taxi}</p>{/if}
+        {#if vv === 'taxi' && app.data.praktisch.taxi && !/^\d+ taxi's voor de groep\.?$/i.test(app.data.praktisch.taxi.trim())}<p class="klein">{app.data.praktisch.taxi}</p>{/if}
         {#if naar}
           <a class="knop vol" href={mapsRoute([van, naar], vv === 'taxi' ? 'driving' : 'walking')} target="_blank" rel="noopener">
             <Icon naam="route" /> Open in Google Maps

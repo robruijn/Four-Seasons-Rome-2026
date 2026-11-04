@@ -5,10 +5,10 @@
   import Icon from '../components/Icon.svelte';
   import KaartOfSchema from '../components/KaartOfSchema.svelte';
   import StreetView from '../components/StreetView.svelte';
-  import { app, routeStops, streetViewStops, routeMaat, blokkenMetRoute } from '../lib/data.svelte.js';
+  import { app, routeStops, streetViewStops, routeMaat, blokkenMetRoute, routeBeschrijving } from '../lib/data.svelte.js';
   import { net } from '../lib/staat.svelte.js';
   import { maps } from '../lib/maps.svelte.js';
-  import { afstand, richting, windstreek, meterTekst, minutenTekst, mapsRoute, OMWEG, TEMPO_M_PER_MIN } from '../lib/geo.js';
+  import { afstand, meterTekst, minutenTekst, mapsRoute, OMWEG, TEMPO_M_PER_MIN } from '../lib/geo.js';
   import { mooieDag } from '../lib/tijd.js';
 
   let { id } = $props();
@@ -23,28 +23,7 @@
 
   const punten = $derived(bekend.map((l, i) => ({ lat: l.lat, lng: l.lng, label: String(i + 1), naam: l.naam, href: '#/locatie/' + l.id })));
 
-  // Tekstuele routebeschrijving uit de coördinaten (werkt offline).
-  const stappen = $derived.by(() => {
-    const uit = [];
-    const eerste = stops[0];
-    if (eerste?.open) {
-      uit.push(`Vertrekpunt: nog te bepalen (${eerste.open.replace(/^TE_BEPALEN\s*\(?|\)$/g, '') || 'volgt'}). De reisleider wijst de weg.`);
-    } else if (eerste?.loc) {
-      uit.push(`Start bij ${eerste.loc.naam} (${eerste.loc.adres}).`);
-    }
-    for (let i = 1; i < stops.length; i++) {
-      const a = stops[i - 1].loc, b = stops[i].loc;
-      if (!b) continue;
-      if (!a || a.lat == null || b.lat == null) {
-        uit.push(`Loop naar ${b.naam}, ${b.adres}.`);
-        continue;
-      }
-      const m = afstand(a, b) * OMWEG;
-      const laatste = i === stops.length - 1;
-      uit.push(`Loop ca. ${meterTekst(m)} in ${windstreek(richting(a, b))} richting naar ${b.naam} (ca. ${minutenTekst(m / TEMPO_M_PER_MIN)})${laatste ? '. Hier eindigt de route.' : '.'}`);
-    }
-    return uit;
-  });
+  const stappen = $derived(routeBeschrijving(id));
 </script>
 
 <main class="pagina">
@@ -89,6 +68,11 @@
               <p class="klein">{s.loc.adres}{#if s.loc.adres_status} · <span class="label">adres nog te controleren</span>{/if}</p>
               {#if s.loc.tekst}<p class="tekst">{s.loc.tekst}</p>{/if}
             </div>
+            {@const volgende = stops[i + 1]?.loc}
+            {#if volgende && s.loc.lat != null && volgende.lat != null}
+              {@const m = afstand(s.loc, volgende) * OMWEG}
+              <p class="leg"><Icon naam="voet" maat={16} /> ca. {minutenTekst(m / TEMPO_M_PER_MIN)} lopen ({meterTekst(m)}) naar {volgende.naam}</p>
+            {/if}
           {:else}
             <div>
               <span class="naam">Vertrekpunt</span>
@@ -123,5 +107,9 @@
   .naam { font-family: var(--serif); font-size: 1.3rem; font-weight: 700; }
   .stops p { margin: 0.1rem 0 0.3rem; }
   .tekst { font-size: 0.9875rem; }
+  .leg {
+    grid-column: 2; display: flex; align-items: center; gap: 0.35rem;
+    margin: 0.1rem 0 0 !important; font-size: 0.875rem; font-weight: 650; color: var(--groen);
+  }
   .stappen { padding-left: 1.4rem; display: grid; gap: 0.5rem; }
 </style>

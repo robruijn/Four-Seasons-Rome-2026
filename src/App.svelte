@@ -11,6 +11,7 @@
   import Praktisch from './views/Praktisch.svelte';
   import Fotos from './views/Fotos.svelte';
   import Beheer from './views/Beheer.svelte';
+  import Gids from './views/Gids.svelte';
   import { app, laadData } from './lib/data.svelte.js';
   import { route, net } from './lib/staat.svelte.js';
   import { pwa, startPwa, vernieuw } from './lib/pwa.svelte.js';
@@ -27,7 +28,7 @@
   const tabs = [
     { pad: '', naam: 'Programma', icoon: 'programma', hoort: ['', 'dag', 'blok', 'route'] },
     { pad: 'kaart', naam: 'Kaart', icoon: 'kaart', hoort: ['kaart', 'locatie'] },
-    { pad: 'info', naam: 'Info', icoon: 'info', hoort: ['info', 'fotos'] },
+    { pad: 'info', naam: 'Info', icoon: 'info', hoort: ['info', 'fotos', 'gids'] },
     { pad: 'praktisch', naam: 'Praktisch', icoon: 'praktisch', hoort: ['praktisch'] }
   ];
   let sectie = $derived(route.pad[0] ?? '');
@@ -72,6 +73,8 @@
       <Praktisch />
     {:else if sectie === 'fotos'}
       <Fotos />
+    {:else if sectie === 'gids'}
+      <Gids />
     {:else if sectie === 'beheer'}
       <Beheer />
     {:else}

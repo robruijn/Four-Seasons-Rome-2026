@@ -77,9 +77,8 @@
     <h2 id="h-taxi" class="sectie-titel"><Icon naam="taxi" /> Taxi</h2>
     <div class="kaart">
       {#if taxis}<p class="groottaxi"><strong>{taxis} taxi's</strong> voor de groep</p>{/if}
-      <p>{p.taxi}</p>
+      {#if p.taxi && !/^\d+ taxi's voor de groep\.?$/i.test(p.taxi.trim())}<p>{p.taxi}</p>{/if}
       {#if p.taxi_afspraak}<p class="afspraak"><Icon naam="klok" /> <span>{p.taxi_afspraak}</span></p>{/if}
-      <p class="klein">Neem alleen officiële witte taxi's met het logo van Roma Capitale en een vergunningsnummer.</p>
     </div>
   </section>
 

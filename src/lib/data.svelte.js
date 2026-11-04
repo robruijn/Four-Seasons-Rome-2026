@@ -4,7 +4,7 @@
 // (bronvermelding en licenties), gemaakt door `npm run fotos`.
 
 import { wandklok } from './tijd.js';
-import { schatRoute } from './geo.js';
+import { schatRoute, afstand, OMWEG, TEMPO_M_PER_MIN, richting, windstreek, meterTekst, minutenTekst } from './geo.js';
 
 export const app = $state({
   data: null,
@@ -146,4 +146,58 @@ export function groepsgrootte() {
   if (typeof a === 'number') return { tekst: `${a} personen`, zeker: true };
   const m = /\(([^)]+)\)/.exec(a ?? '');
   return { tekst: m ? `${m[1]} personen` : 'de groep', zeker: !onbevestigd(a) };
+}
+
+// ---------- Looptijd tussen opeenvolgende onderdelen ----------
+
+function eindLocatie(b) {
+  if (b.naar_loc) return loc(b.naar_loc);
+  if (b.route) {
+    const s = routeStops(b.route);
+    return s[s.length - 1]?.loc ?? null;
+  }
+  return loc(b.locatie);
+}
+
+function startLocatie(b) {
+  if (b.van_loc) return loc(b.van_loc);
+  if (b.route) return routeStops(b.route)[0]?.loc ?? null;
+  return loc(b.locatie);
+}
+
+/**
+ * Looptijd (schatting) van het vorige naar het volgende onderdeel, als je daar zelf
+ * naartoe gaat (dus niet als het volgende onderdeel zelf een taxirit of wandelroute is).
+ */
+export function looptijdTussen(a, b) {
+  if (!a || !b || b.vervoer || b.route) return null;
+  const van = eindLocatie(a), naar = startLocatie(b);
+  if (!van || !naar || van.id === naar.id || van.lat == null || naar.lat == null) return null;
+  const m = afstand(van, naar) * OMWEG;
+  if (m < 100) return null;
+  return { meters: m, minuten: m / TEMPO_M_PER_MIN, van, naar };
+}
+
+/** Tekstuele routebeschrijving uit de coördinaten (werkt offline). */
+export function routeBeschrijving(routeId) {
+  const stops = routeStops(routeId);
+  const uit = [];
+  const eerste = stops[0];
+  if (eerste?.open) {
+    uit.push(`Vertrekpunt: nog te bepalen (${eerste.open.replace(/^TE_BEPALEN\s*\(?|\)$/g, '') || 'volgt'}). De reisleider wijst de weg.`);
+  } else if (eerste?.loc) {
+    uit.push(`Start bij ${eerste.loc.naam} (${eerste.loc.adres}).`);
+  }
+  for (let i = 1; i < stops.length; i++) {
+    const a = stops[i - 1].loc, b = stops[i].loc;
+    if (!b) continue;
+    if (!a || a.lat == null || b.lat == null) {
+      uit.push(`Loop naar ${b.naam}, ${b.adres}.`);
+      continue;
+    }
+    const m = afstand(a, b) * OMWEG;
+    const laatste = i === stops.length - 1;
+    uit.push(`Loop ca. ${meterTekst(m)} in ${windstreek(richting(a, b))} richting naar ${b.naam} (ca. ${minutenTekst(m / TEMPO_M_PER_MIN)})${laatste ? '. Hier eindigt de route.' : '.'}`);
+  }
+  return uit;
 }
