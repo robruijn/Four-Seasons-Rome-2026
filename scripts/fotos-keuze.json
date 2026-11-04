@@ -1,0 +1,45 @@
+{
+  "_uitleg": "Per locatie-id: 'uitsluiten' = lijst met Commons-bestandsnamen (File:...) die je niet wilt; 'vast' = bestanden die je juist wél wilt; 'zoekterm' = andere zoekterm dan in programma.json; 'geen': true = geen foto's, rustige illustratie. Een locatie waarvan de keuze verandert, wordt automatisch opnieuw opgehaald. Elke wijziging in dit bestand start de workflow \"Foto's ophalen\". Standaard moeten foto's 'Rome'/'Roma' in titel, beschrijving of categorie hebben; zet 'plaats_filter': false om dat voor een locatie uit te zetten. 'max' = maximaal aantal foto's voor die locatie.",
+  "san_clemente": {
+    "zoekterm": "Basilica San Clemente Laterano Roma",
+    "uitsluiten": [
+      "File:San Clemente Pier HD by Don Ramey Logan.jpg",
+      "File:Roma, basilica di San Clemente al Laterano - Organo a canne 2.jpg",
+      "File:San Clemente (Venice) - View from Giudecca.jpg",
+      "File:Iglesia de San Clemente, Skopie, Macedonia del Norte, 2014-04-17, DD 72.JPG"
+    ]
+  },
+  "colosseo": {
+    "zoekterm": "Colosseum Rome exterior"
+  },
+  "casa_bleve": {
+    "geen": true
+  },
+  "topbike": {
+    "zoekterm": "Colosseum Via Labicana Rome"
+  },
+  "ai_fienaroli": {
+    "geen": true
+  },
+  "piazza_navona": {
+    "zoekterm": "Piazza Navona Roma Fontana dei Quattro Fiumi"
+  },
+  "terrazza_borromini": {
+    "zoekterm": "Sant'Agnese in Agone Piazza Navona"
+  },
+  "romane": {
+    "geen": true
+  },
+  "fori_imperiali": {
+    "uitsluiten": [
+      "File:Sidewalk of Via dei Fori Imperiali, Roma, Italy.jpg"
+    ]
+  },
+  "taverna_urbana": {
+    "zoekterm": "Via Urbana Roma",
+    "vast": [
+      "File:Monti - via Urbana 1010033.JPG"
+    ],
+    "max": 1
+  }
+}
