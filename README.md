@@ -1,4 +1,4 @@
-# Rome met de groep – reis-app (PWA)
+# Four Seasons Rome 2026 – reis-app (PWA)
 
 Digitale reisgids voor de groepsreis naar Rome van **vrijdag 13 t/m zondag 15 november 2026**.
 Mobile-first webapp, te openen via een link of QR-code, zonder app store. Geen login, geen tracking.

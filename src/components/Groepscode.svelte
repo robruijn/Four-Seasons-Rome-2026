@@ -19,7 +19,7 @@
 </script>
 
 <main class="pagina poort">
-  <h1>Rome met de groep</h1>
+  <h1>Four Seasons Rome 2026</h1>
   <p>Deze reisgids is alleen voor de groep. Vul de groepscode in die je van de reisleider hebt gekregen.</p>
   <form onsubmit={verstuur} class="kaart">
     <label for="code" class="dik">Groepscode</label>

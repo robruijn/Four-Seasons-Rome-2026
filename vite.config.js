@@ -15,8 +15,8 @@ export default defineConfig({
       registerType: 'prompt',
       injectRegister: false,
       manifest: {
-        name: 'Rome met de groep',
-        short_name: 'Rome',
+        name: 'Four Seasons Rome 2026',
+        short_name: 'Rome 2026',
         description: 'Programma, adressen en wandelroutes voor de groepsreis naar Rome, 13 t/m 15 november 2026.',
         lang: 'nl',
         dir: 'ltr',

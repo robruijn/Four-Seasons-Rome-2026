@@ -58,7 +58,7 @@ const html = await page.evaluate(async () => {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Reisgids Rome met de groep</title>
+<title>Reisgids Four Seasons Rome 2026</title>
 <style>${css}
 .pagina { padding-bottom: 2rem !important; }
 </style>

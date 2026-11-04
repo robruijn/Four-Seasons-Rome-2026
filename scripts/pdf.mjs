@@ -24,7 +24,7 @@ await page.pdf({
   printBackground: true,
   displayHeaderFooter: true,
   headerTemplate: '<span></span>',
-  footerTemplate: '<div style="font:9px system-ui,sans-serif;color:#4f463d;width:100%;text-align:center">Rome met de groep · 13–15 november 2026 · pagina <span class="pageNumber"></span> van <span class="totalPages"></span></div>',
+  footerTemplate: '<div style="font:9px system-ui,sans-serif;color:#4f463d;width:100%;text-align:center">Four Seasons Rome 2026 · 13–15 november 2026 · pagina <span class="pageNumber"></span> van <span class="totalPages"></span></div>',
   margin: { top: '14mm', bottom: '16mm', left: '14mm', right: '14mm' }
 });
 await browser.close();
