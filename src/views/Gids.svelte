@@ -49,6 +49,7 @@
     <h1 tabindex="-1">{d.meta.titel}</h1>
     <p class="periode">Vrijdag 13 t/m zondag 15 november 2026</p>
     {#if d.meta.welkom}<p class="welkom">{d.meta.welkom}</p>{/if}
+    <p class="applink">Ook als app op je telefoon: <a href="https://robruijn.github.io/rdb.test/">robruijn.github.io/rdb.test</a></p>
   </header>
 
   <!-- Belangrijk -->
@@ -195,6 +196,7 @@
   .boventitel { margin: 0; color: var(--terra); font-weight: 750; letter-spacing: 0.12em; text-transform: uppercase; font-size: 0.875rem; }
   .omslag h1 { font-size: 2.6rem; margin: 0.1rem 0; }
   .periode { font-weight: 650; }
+  .applink { margin-top: 0.8rem; font-weight: 650; }
   .welkom { font-family: var(--serif); font-size: 1.3rem; line-height: 1.4; max-width: 34rem; margin: 0.8rem auto 0; }
   h2 { border-bottom: 2px solid var(--terra); padding-bottom: 0.2rem; margin-top: 1.6rem; }
   .programma { list-style: none; padding: 0; margin: 0; }

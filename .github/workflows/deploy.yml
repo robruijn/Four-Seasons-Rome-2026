@@ -3,7 +3,8 @@
 name: Publiceren
 on:
   push:
-    branches: [main]
+    # De standaardbranch van de repository mag naar Pages publiceren.
+    branches: [main, claude/new-session-auwo2u]
   workflow_dispatch:
 
 permissions:
