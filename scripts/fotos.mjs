@@ -140,8 +140,9 @@ for (const [id, l] of Object.entries(data.locaties)) {
       kandidaten = [...vast, ...kandidaten.filter((f) => !k.vast.includes(f.titel))];
     }
     const gekozen = [];
-    for (const f of kandidaten.slice(0, PER_LOCATIE + 2)) {
-      if (gekozen.length >= PER_LOCATIE) break;
+    const max = k.max ?? PER_LOCATIE;
+    for (const f of kandidaten.slice(0, max + 2)) {
+      if (gekozen.length >= max) break;
       try {
         gekozen.push(await bewaar(id, gekozen.length + 1, f));
         await pauze(300); // vriendelijk voor de servers van Wikimedia

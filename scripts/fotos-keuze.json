@@ -1,5 +1,5 @@
 {
-  "_uitleg": "Per locatie-id: 'uitsluiten' = lijst met Commons-bestandsnamen (File:...) die je niet wilt; 'vast' = bestanden die je juist wél wilt; 'zoekterm' = andere zoekterm dan in programma.json; 'geen': true = geen foto's, rustige illustratie. Een locatie waarvan de keuze verandert, wordt automatisch opnieuw opgehaald. Elke wijziging in dit bestand start de workflow \"Foto's ophalen\". Standaard moeten foto's 'Rome'/'Roma' in titel, beschrijving of categorie hebben; zet 'plaats_filter': false om dat voor een locatie uit te zetten.",
+  "_uitleg": "Per locatie-id: 'uitsluiten' = lijst met Commons-bestandsnamen (File:...) die je niet wilt; 'vast' = bestanden die je juist wél wilt; 'zoekterm' = andere zoekterm dan in programma.json; 'geen': true = geen foto's, rustige illustratie. Een locatie waarvan de keuze verandert, wordt automatisch opnieuw opgehaald. Elke wijziging in dit bestand start de workflow \"Foto's ophalen\". Standaard moeten foto's 'Rome'/'Roma' in titel, beschrijving of categorie hebben; zet 'plaats_filter': false om dat voor een locatie uit te zetten. 'max' = maximaal aantal foto's voor die locatie.",
   "san_clemente": {
     "zoekterm": "Basilica San Clemente Laterano Roma",
     "uitsluiten": [
@@ -36,6 +36,10 @@
     ]
   },
   "taverna_urbana": {
-    "zoekterm": "Via Urbana Roma"
+    "zoekterm": "Via Urbana Roma",
+    "vast": [
+      "File:Monti - via Urbana 1010033.JPG"
+    ],
+    "max": 1
   }
 }
