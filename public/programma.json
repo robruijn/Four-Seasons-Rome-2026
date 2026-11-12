@@ -7,7 +7,7 @@
     "aantal_personen": 16,
     "reisleiders": [
       {"naam": "Robert", "telefoon": "+31 6 16839022"},
-      {"naam": "Bas", "telefoon": "+31 6 21864173"}
+      {"naam": "Bas", "telefoon": "+31 6 21863173"}
     ],
     "laatst_gecontroleerd": "2026-11-03",
     "opmerking_geocoding": "Locaties met lat/lng = null: ophalen via Google Geocoding API op basis van het adres."

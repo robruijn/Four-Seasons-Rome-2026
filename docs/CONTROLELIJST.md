@@ -21,7 +21,7 @@ Stand: 3 november 2026 (bijgewerkt na antwoorden opdrachtgever). Actuele lijst: 
 - [ ] **San Clemente**: adres Via Labicana 95 verifiëren.
 - [ ] **Babington's Tea Rooms**: Piazza di Spagna 23 verifiëren (verzamelpunt stadstour).
 - [ ] **Hotel Viminale**: twee telefoonnummers (+39 06 84030333 en +39 06 4881980); één keer bellen en het juiste houden.
-- [x] **Reisleiders**: Robert +31 6 16839022, Bas +31 6 21864173.
+- [x] **Reisleiders**: Robert +31 6 16839022, Bas +31 6 21863173.
 - [ ] **Coördinaten**: 16 locaties zijn handmatig ingevuld (op ca. 20–50 m nauwkeurig). Draai `npm run geocode` met een Google-sleutel voor de definitieve waarden.
 - [ ] **Groepsreserveringen** bevestigen: Casa Bleve, Terrazza Borromini (telefonisch), Grappolo d'Oro, Ai Fienaroli, Romanè.
 
