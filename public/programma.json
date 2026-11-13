@@ -210,7 +210,7 @@
       "label": "Zaterdag 14 november",
       "blokken": [
         {"id": "z1", "van": "08:00", "tot": "09:00", "titel": "Ontbijt", "locatie": "hotel_viminale"},
-        {"id": "z2", "van": "09:15", "tot": "09:30", "titel": "4 taxi's naar TopBike", "vervoer": "taxi", "van_loc": "hotel_viminale", "naar_loc": "topbike"},
+        {"id": "z2", "van": "09:15", "tot": "09:30", "titel": "Wandeling naar TopBike", "route": "r_z0"},
         {"id": "z3", "van": "09:30", "tot": "13:30", "titel": "Bike fitting en veiligheidsbriefing", "locatie": "topbike"},
         {"id": "z4", "van": "13:30", "tot": "13:45", "titel": "Fietsen inleveren en taxi terug", "vervoer": "taxi", "van_loc": "topbike", "naar_loc": "hotel_viminale", "noot": "Korte reset voor de avond."},
         {"id": "z5", "van": "13:45", "tot": "14:15", "titel": "Douchen / omkleden", "locatie": "hotel_viminale"},
@@ -240,6 +240,7 @@
   ],
 
   "routes": {
+    "r_z0": {"titel": "Hotel Viminale naar TopBike", "modus": "walking", "van": "hotel_viminale", "naar": "topbike", "streetview_stops": ["hotel_viminale", "topbike"]},
     "r_v1": {"titel": "Taverna Urbana naar San Clemente", "modus": "walking", "van": "taverna_urbana", "naar": "san_clemente", "streetview_stops": ["taverna_urbana", "san_clemente"]},
     "r_v2": {"titel": "San Clemente naar Colosseum", "modus": "walking", "van": "san_clemente", "naar": "colosseo", "streetview_stops": ["san_clemente", "colosseo"]},
     "r_v3": {"titel": "Colosseum, Via dei Fori Imperiali, Campidoglio", "modus": "walking", "van": "colosseo", "tussen": ["fori_imperiali"], "naar": "campidoglio", "streetview_stops": ["colosseo", "fori_imperiali", "campidoglio"]},
