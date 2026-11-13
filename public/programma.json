@@ -22,7 +22,7 @@
     "fco": {
       "naam": "Luchthaven Fiumicino (FCO), Terminal 1/3",
       "adres": "Aeroporto Leonardo da Vinci, Fiumicino",
-      "lat": 41.8003, "lng": 12.2389, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "lat": 41.81539, "lng": 12.22648, "geo_bron": "OpenStreetMap, gecontroleerd 13-11-2026", "maps": "Aeroporto di Roma-Fiumicino Leonardo da Vinci", "maps_vervoer": "driving",
       "tekst": "Jullie landen op Fiumicino. Na de bagage verzamelen we en gaan we met de taxi's naar het hotel."
     },
     "hotel_viminale": {
@@ -30,21 +30,20 @@
       "adres": "Via Cesare Balbo 31, Roma",
       "telefoon": ["+39 06 84030333", "+39 06 4881980"],
       "telefoon_opmerking": "Bronnen verschillen; één keer bellen om te controleren.",
-      "lat": 41.8984, "lng": 12.4951,
+      "lat": 41.89833, "lng": 12.49513, "geo_bron": "OpenStreetMap, gecontroleerd 13-11-2026", "maps": "Hotel Viminale, Via Cesare Balbo 31, 00184 Roma",
       "tekst": "Jullie uitvalsbasis, op loopafstand van Termini, Santa Maria Maggiore en de Via Nazionale. Check-in is vanaf 14:00, uitchecken vóór 11:00. Bagage kan worden gestald."
     },
     "taverna_urbana": {
       "naam": "Taverna Urbana",
       "adres": "Via Urbana 136, 00184 Roma",
-      "lat": 41.8961, "lng": 12.4947, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "lat": 41.89696, "lng": 12.49462, "geo_bron": "OpenStreetMap, gecontroleerd 13-11-2026", "maps": "Taverna Urbana, Via Urbana, 00184 Roma",
       "tekst": "Restaurant in Via Urbana, een straat vol kleine winkeltjes en eethuizen in de wijk Monti. Op een paar minuten lopen van het hotel: een mooie eerste kennismaking met Rome.",
       "foto_zoekterm": "Via Urbana Roma Monti"
     },
     "san_clemente": {
       "naam": "Basilica di San Clemente",
       "adres": "Via Labicana 95, Roma",
-      "adres_status": "uit eigen kennis, verifiëren",
-      "lat": 41.8893, "lng": 12.4975, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "lat": 41.88920, "lng": 12.49754, "geo_bron": "OpenStreetMap, gecontroleerd 13-11-2026", "maps": "Basilica di San Clemente al Laterano, Via Labicana 95, 00184 Roma",
       "tekst": "Dit is drie keer Rome in één gebouw. Boven staat een middeleeuwse kerk uit de 12e eeuw, daaronder een oudere basiliek uit de 4e eeuw, en nog dieper liggen Romeinse gebouwen en een mithrastempel. Onderin hoor je water stromen door een antieke afvoer. Je daalt letterlijk door de eeuwen.",
       "praktisch": "Voor de onderste lagen is een toegangsticket nodig. Controleer prijs en eventuele fotoregels vooraf.",
       "foto_zoekterm": "Basilica di San Clemente Rome"
@@ -52,28 +51,28 @@
     "colosseo": {
       "naam": "Colosseum",
       "adres": "Piazza del Colosseo, Roma",
-      "lat": 41.8902, "lng": 12.4922, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "lat": 41.89094, "lng": 12.49190, "geo_bron": "OpenStreetMap, gecontroleerd 13-11-2026", "maps": "Colosseo, Piazza del Colosseo, 00184 Roma",
       "tekst": "Het Colosseum werd tussen 72 en 80 na Christus gebouwd. In het gouden uur kleurt de steen warm, en je hoeft er niet in om het effect te voelen.",
       "foto_zoekterm": "Colosseum Rome golden hour"
     },
     "fori_imperiali": {
       "naam": "Via dei Fori Imperiali",
       "adres": "Via dei Fori Imperiali, Roma",
-      "lat": 41.8935, "lng": 12.4876, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "lat": 41.8935, "lng": 12.4876, "geo_bron": "middenpunt van de straat, gecontroleerd 13-11-2026", "maps": "Via dei Fori Imperiali, Roma",
       "tekst": "Deze brede laan werd in de jaren dertig aangelegd en loopt langs de resten van de keizerlijke fora van het Colosseum naar Piazza Venezia. Aan weerszijden zie je de oude Romeinse ruïnes.",
       "foto_zoekterm": "Via dei Fori Imperiali"
     },
     "campidoglio": {
       "naam": "Piazza del Campidoglio",
       "adres": "Piazza del Campidoglio, Roma",
-      "lat": 41.8934, "lng": 12.4828, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "lat": 41.89325, "lng": 12.48299, "geo_bron": "OpenStreetMap, gecontroleerd 13-11-2026", "maps": "Piazza del Campidoglio, 00186 Roma",
       "tekst": "Het plein op de Capitolijnse heuvel is een ontwerp van Michelangelo uit de 16e eeuw. De symmetrische paleizen en het patroon in de bestrating maken het een van de mooiste pleinen van Rome.",
       "foto_zoekterm": "Piazza del Campidoglio"
     },
     "monti": {
       "naam": "Piazza della Madonna dei Monti",
       "adres": "Piazza della Madonna dei Monti, Roma",
-      "lat": 41.8954, "lng": 12.4918, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "lat": 41.89490, "lng": 12.49088, "geo_bron": "OpenStreetMap, gecontroleerd 13-11-2026", "maps": "Piazza della Madonna dei Monti, 00184 Roma",
       "tekst": "Monti is de oudste wijk van Rome en was in de oudheid een beruchte volksbuurt. Nu is het een gezellige buurt met vintage winkels, ambachtslieden en terrasjes. Op het plein staat een 16e-eeuwse fontein van Giacomo della Porta.",
       "praktisch": "Aperitivo staand of op een terras; houd het licht.",
       "foto_zoekterm": "Piazza della Madonna dei Monti Rome"
@@ -82,7 +81,7 @@
       "naam": "Casa Bleve",
       "adres": "Via del Teatro Valle 48, 00186 Roma",
       "telefoon": ["+39 06 686 5970"],
-      "lat": 41.8976, "lng": 12.4751,
+      "lat": 41.89770, "lng": 12.47519, "geo_bron": "OpenStreetMap, gecontroleerd 13-11-2026", "maps": "Casa Bleve, Via del Teatro Valle 48, 00186 Roma",
       "tekst": "Een restaurant in een historisch paleis, gerund door de familie Bleve, afkomstig uit Puglia. De keuken combineert Romeinse tradities met Zuid-Italiaanse zeevruchten, en de wijnkelder staat bekend om zijn omvang.",
       "foto_zoekterm": "Casa Bleve Rome"
     },
@@ -90,7 +89,7 @@
       "naam": "TopBike Rental & Tours",
       "adres": "Via Labicana 49, 00184 Roma",
       "telefoon": ["+39 06 4882893"],
-      "lat": 41.8896, "lng": 12.4951, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "lat": 41.88935, "lng": 12.49981, "geo_bron": "OpenStreetMap, gecontroleerd 13-11-2026", "maps": "TopBike Rental & Tours, Via Labicana 49, 00184 Roma",
       "tekst": "Het verhuurbedrijf ligt vlak bij het Colosseum en gebruikt e-bikes. Een elektrische fiets maakt de heuvels van Rome een stuk aangenamer, en met de gids ga je langs plekken die met de auto niet te bereiken zijn.",
       "praktisch": "Een helm is verplicht en wordt ter plekke verstrekt.",
       "foto_zoekterm": "e-bike tour Rome"
@@ -99,7 +98,7 @@
       "naam": "Ai Fienaroli",
       "adres": "Via Piemonte 125 / Via Sardegna 135-137, 00187 Roma",
       "telefoon": ["+39 06 4555 6436", "+39 338 475 3301"],
-      "lat": 41.9099, "lng": 12.4933,
+      "lat": 41.9099, "lng": 12.4933, "maps": "Ai Fienaroli, Via Piemonte 125, 00187 Roma",
       "tekst": "Een familierestaurant vlak bij Villa Borghese met gewelfde plafonds, Romeinse klassiekers en pinsa. Niet op de gebaande toeristenpaden, en juist daarom prettig.",
       "praktisch": "Ongeveer 20 minuten lopen naar de Spaanse Trappen.",
       "foto_zoekterm": "Via Sardegna Rome restaurant"
@@ -108,7 +107,7 @@
       "naam": "Piazza di Spagna / Spaanse Trappen (Babington's Tea Rooms)",
       "adres": "Piazza di Spagna 23, Roma",
       "adres_status": "Babington's uit eigen kennis, verifiëren",
-      "lat": 41.9057, "lng": 12.4824, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "lat": 41.90606, "lng": 12.48232, "geo_bron": "OpenStreetMap, gecontroleerd 13-11-2026", "maps": "Babington's Tea Rooms, Piazza di Spagna 23, 00187 Roma",
       "tekst": "De 135 treden uit de 18e eeuw verbinden het plein met de kerk Trinità dei Monti. Onderaan staat de Barcaccia, een fontein in de vorm van een schip. Zitten op de trappen is verboden en kan een boete opleveren.",
       "praktisch": "Verzamelen om 17:00 op Piazza di Spagna, voor Babington's Tea Rooms, links van de Spaanse Trappen. De gids (Cris, Cris Roman Guide) heeft een bordje met haar logo.",
       "foto_zoekterm": "Spanish Steps Rome"
@@ -116,7 +115,7 @@
     "trevi": {
       "naam": "Trevifontein",
       "adres": "Piazza di Trevi, Roma",
-      "lat": 41.9009, "lng": 12.4833, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "lat": 41.90098, "lng": 12.48328, "geo_bron": "OpenStreetMap, gecontroleerd 13-11-2026", "maps": "Fontana di Trevi, Piazza di Trevi, 00187 Roma",
       "tekst": "De grootste barokfontein van Rome, gebouwd tussen 1732 en 1762 naar een ontwerp van Nicola Salvi. Volgens de traditie gooi je een munt met je rechterhand over je linkerschouder, zodat je terugkeert naar Rome.",
       "praktisch": "Sinds 2 februari 2026 is voor het bassin een kaartje van €2 nodig voor toeristen. Aan de ingang alleen met pin; vooraf online kopen kan ook.",
       "foto_zoekterm": "Trevi Fountain Rome"
@@ -124,7 +123,7 @@
     "pantheon": {
       "naam": "Pantheon (van buiten)",
       "adres": "Piazza della Rotonda, Roma",
-      "lat": 41.8986, "lng": 12.4769, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "lat": 41.89862, "lng": 12.47683, "geo_bron": "OpenStreetMap, gecontroleerd 13-11-2026", "maps": "Pantheon, Piazza della Rotonda, 00186 Roma",
       "tekst": "Het Pantheon is bijna 2000 jaar oud en nog steeds in gebruik als kerk. Jullie bekijken het van buiten.",
       "praktisch": "Binnen is een toegangsticket van €5 nodig.",
       "foto_zoekterm": "Pantheon Rome facade"
@@ -132,21 +131,21 @@
     "saint_louis": {
       "naam": "Saint-Louis-des-Français",
       "adres": "Piazza di San Luigi dei Francesi, Roma",
-      "lat": 41.8996, "lng": 12.4746, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "lat": 41.89959, "lng": 12.47454, "geo_bron": "OpenStreetMap, gecontroleerd 13-11-2026", "maps": "Chiesa di San Luigi dei Francesi, Piazza di San Luigi de' Francesi, 00186 Roma",
       "tekst": "De nationale kerk van Frankrijk in Rome. In de Contarelli-kapel hangen drie schilderijen van Caravaggio over de heilige Mattheüs, beroemd om hun dramatische licht.",
       "foto_zoekterm": "San Luigi dei Francesi Rome"
     },
     "piazza_navona": {
       "naam": "Piazza Navona",
       "adres": "Piazza Navona, Roma",
-      "lat": 41.8992, "lng": 12.4731, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "lat": 41.89893, "lng": 12.47312, "geo_bron": "OpenStreetMap, gecontroleerd 13-11-2026", "maps": "Piazza Navona, 00186 Roma",
       "tekst": "Het plein heeft de vorm van een antiek stadion en werd in de 17e eeuw omgevormd tot barokke ruimte. De Fontana dei Quattro Fiumi in het midden is van Bernini (1651). Aan de rand staat Sant'Agnese in Agone, een kerk van Borromini.",
       "foto_zoekterm": "Piazza Navona fountain"
     },
     "castel_sangelo": {
       "naam": "Tiber, Ponte Sant'Angelo en Castel Sant'Angelo (van buiten)",
       "adres": "Lungotevere Castello, Roma",
-      "lat": 41.9018, "lng": 12.4668, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "lat": 41.90192, "lng": 12.46646, "geo_bron": "OpenStreetMap, gecontroleerd 13-11-2026", "maps": "Ponte Sant'Angelo, Roma",
       "tekst": "De brug werd door keizer Hadrianus gebouwd en kreeg in de 17e eeuw engelen naar ontwerp van Bernini. Het kasteel was oorspronkelijk Hadrianus' grafmonument en werd later een pauselijke vesting.",
       "foto_zoekterm": "Castel Sant'Angelo Rome"
     },
@@ -154,7 +153,7 @@
       "naam": "Terrazza Borromini",
       "adres": "Via di Santa Maria dell'Anima 30, 00186 Roma",
       "telefoon": ["+39 391 311 4523", "+39 06 6821 5459"],
-      "lat": 41.8991, "lng": 12.4724,
+      "lat": 41.89914, "lng": 12.47240, "geo_bron": "OpenStreetMap, gecontroleerd 13-11-2026", "maps": "Terrazza Borromini, Via di Santa Maria dell'Anima 30, 00186 Roma",
       "tekst": "Het dakterras van Palazzo Pamphilj kijkt uit over Piazza Navona en de koepel van Sant'Agnese. Dagelijks open van 12:00 tot middernacht. Een mooie plek voor de zonsondergang.",
       "foto_zoekterm": "Terrazza Borromini Piazza Navona"
     },
@@ -162,14 +161,14 @@
       "naam": "Hosteria Grappolo d'Oro",
       "adres": "Piazza della Cancelleria 80, 00186 Roma",
       "telefoon": ["+39 06 6897080"],
-      "lat": 41.8963, "lng": 12.4719, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "lat": 41.89629, "lng": 12.47223, "geo_bron": "OpenStreetMap, gecontroleerd 13-11-2026", "maps": "Hosteria Grappolo d'Oro, Piazza della Cancelleria 80, 00186 Roma",
       "tekst": "Romeinse klassiekers zoals carbonara, cacio e pepe en amatriciana, vlak bij Campo de' Fiori en Piazza Navona. Het restaurant staat in de Michelin Guide met een Bib Gourmand voor goede kwaliteit tegen een redelijke prijs.",
       "foto_zoekterm": "Piazza della Cancelleria Rome"
     },
     "doria_pamphilj": {
       "naam": "Galleria Doria Pamphilj",
       "adres": "Via del Corso 305, Roma",
-      "lat": 41.8981, "lng": 12.4812, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "lat": 41.89782, "lng": 12.48156, "geo_bron": "OpenStreetMap, gecontroleerd 13-11-2026", "maps": "Galleria Doria Pamphilj, Via del Corso 305, 00186 Roma",
       "tekst": "Een particuliere kunstcollectie in een paleis dat nog steeds van de familie is. Je ziet er werk van Caravaggio en het portret van paus Innocentius X door Velázquez.",
       "praktisch": "Geboekt: zondag 10:00-11:30.",
       "foto_zoekterm": "Galleria Doria Pamphilj interior"
@@ -179,7 +178,7 @@
       "adres": "Via Cipro 106, Roma",
       "telefoon": ["+39 340 784 5281"],
       "telefoon_status": "uit recensie 2021, verifiëren",
-      "lat": 41.9077, "lng": 12.4479, "geo_bron": "handmatig ingevuld, verifiëren met npm run geocode",
+      "lat": 41.90584, "lng": 12.44515, "geo_bron": "OpenStreetMap, gecontroleerd 13-11-2026", "maps": "Romanè, Via Cipro 106, Roma",
       "tekst": "Het restaurant van Stefano Callegari, bekend als bedenker van de trapizzino. Het menu is een eerbetoon aan de Romeinse keuken, met onder meer fettuccine met vleessaus en abbacchio.",
       "praktisch": "Let op: Romanè Armare (Via Cipro 61) is een ander restaurant.",
       "foto_zoekterm": "Via Cipro Rome"

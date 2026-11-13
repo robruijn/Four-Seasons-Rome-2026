@@ -45,33 +45,45 @@ export function minutenTekst(min) {
 }
 
 // ---- Google Maps-links (openen de app of website van Google Maps; geen API-sleutel nodig) ----
+//
+// Keuze: we geven Google een eenduidige Italiaanse zoekterm (veld "maps" in programma.json,
+// bijv. "Casa Bleve, Via del Teatro Valle 48, 00186 Roma") en geen coördinaten. Dan opent
+// Google de echte plek met naam, openingstijden en ingang, en staat er geen "41.89,12.47"
+// als bestemming. Zonder "maps"-veld: naam + adres.
 
-const plek = (loc) => (loc.lat != null ? `${loc.lat},${loc.lng}` : `${loc.naam}, ${loc.adres}`);
+/** Zoekterm voor Google Maps. */
+export function mapsTerm(loc) {
+  return loc.maps || `${loc.naam}, ${loc.adres}`;
+}
 
-/** Route naar een locatie, vanaf de huidige positie van de gebruiker. */
+const MAPS = 'https://www.google.com/maps';
+const q = (params) =>
+  Object.entries(params)
+    .filter(([, v]) => v)
+    .map(([k, v]) => `${k}=${encodeURIComponent(v)}`)
+    .join('&');
+
+/** Route naar een locatie vanaf de huidige positie (te voet, tenzij de plek iets anders vraagt). */
 export function mapsRouteNaar(loc, modus = 'walking') {
-  const q = new URLSearchParams({ api: '1', destination: `${loc.naam}, ${loc.adres}`, travelmode: modus });
-  return `https://www.google.com/maps/dir/?${q}`;
+  return `${MAPS}/dir/?${q({ api: '1', destination: mapsTerm(loc), travelmode: loc.maps_vervoer || modus })}`;
 }
 
-/** Hele wandelroute met tussenstops. */
+/** Hele route met tussenstops (Google staat max. 9 tussenstops toe). */
 export function mapsRoute(stops, modus = 'walking') {
-  const metCoord = stops.filter(Boolean);
-  if (metCoord.length < 2) return metCoord[0] ? mapsRouteNaar(metCoord[0], modus) : 'https://www.google.com/maps';
-  const q = new URLSearchParams({
+  const s = stops.filter(Boolean);
+  if (s.length < 2) return s[0] ? mapsRouteNaar(s[0], modus) : MAPS;
+  return `${MAPS}/dir/?${q({
     api: '1',
-    origin: plek(metCoord[0]),
-    destination: plek(metCoord[metCoord.length - 1]),
+    origin: mapsTerm(s[0]),
+    destination: mapsTerm(s[s.length - 1]),
+    waypoints: s.slice(1, -1).slice(0, 9).map(mapsTerm).join('|'),
     travelmode: modus
-  });
-  const tussen = metCoord.slice(1, -1).slice(0, 9).map(plek); // Google staat max. 9 tussenstops toe
-  if (tussen.length) q.set('waypoints', tussen.join('|'));
-  return `https://www.google.com/maps/dir/?${q}`;
+  })}`;
 }
 
+/** De plek zelf tonen (zonder route). */
 export function mapsZoek(loc) {
-  const q = new URLSearchParams({ api: '1', query: `${loc.naam}, ${loc.adres}` });
-  return `https://www.google.com/maps/search/?${q}`;
+  return `${MAPS}/search/?${q({ api: '1', query: mapsTerm(loc) })}`;
 }
 
 /** tel:-link zonder spaties. */
