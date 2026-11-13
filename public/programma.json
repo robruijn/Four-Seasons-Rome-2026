@@ -201,6 +201,7 @@
         {"id": "v9", "van": "18:35", "tot": "19:00", "titel": "Terug naar Monti", "route": "r_v4", "noot": "Te voet."},
         {"id": "v10", "van": "19:00", "tot": "19:50", "titel": "Aperitivo", "locatie": "monti", "noot": "Staand of op terras; houd het licht."},
         {"id": "v11", "van": "19:50", "tot": "20:15", "titel": "Terugloop / korte pauze", "locatie": "hotel_viminale", "noot": "Even naar het hotel indien gewenst."},
+        {"id": "v11b", "van": "20:30", "tot": "21:00", "titel": "Vertrek vanuit het hotel: lopen naar het restaurant", "route": "r_v5"},
         {"id": "v12", "van": "21:00", "tot": "22:30", "titel": "Diner", "locatie": "casa_bleve"},
         {"id": "v13", "van": "22:30", "tot": "22:40", "titel": "Terug naar hotel", "van_loc": "casa_bleve", "naar_loc": "hotel_viminale", "noot": "Einde dag."}
       ]
@@ -244,6 +245,7 @@
     "r_v2": {"titel": "San Clemente naar Colosseum", "modus": "walking", "van": "san_clemente", "naar": "colosseo", "streetview_stops": ["san_clemente", "colosseo"]},
     "r_v3": {"titel": "Colosseum, Via dei Fori Imperiali, Campidoglio", "modus": "walking", "van": "colosseo", "tussen": ["fori_imperiali"], "naar": "campidoglio", "streetview_stops": ["colosseo", "fori_imperiali", "campidoglio"]},
     "r_v4": {"titel": "Campidoglio naar Monti", "modus": "walking", "van": "campidoglio", "naar": "monti", "streetview_stops": ["campidoglio", "monti"]},
+    "r_v5": {"titel": "Hotel Viminale naar Casa Bleve", "modus": "walking", "van": "hotel_viminale", "naar": "casa_bleve", "streetview_stops": ["hotel_viminale", "casa_bleve"]},
     "r_z0": {"titel": "Hotel Viminale naar TopBike", "modus": "walking", "van": "hotel_viminale", "naar": "topbike", "streetview_stops": ["hotel_viminale", "topbike"]},
     "r_z0b": {"titel": "TopBike naar Hotel Viminale", "modus": "walking", "van": "topbike", "naar": "hotel_viminale", "streetview_stops": ["topbike", "hotel_viminale"]},
     "r_z1": {"titel": "Stadstour: Spaanse Trappen naar Terrazza Borromini", "modus": "walking", "van": "piazza_di_spagna", "tussen": ["trevi", "pantheon", "saint_louis", "piazza_navona", "castel_sangelo"], "naar": "terrazza_borromini", "streetview_stops": ["piazza_di_spagna", "trevi", "pantheon", "saint_louis", "piazza_navona", "castel_sangelo", "terrazza_borromini"]},
