@@ -212,7 +212,7 @@
         {"id": "z1", "van": "08:00", "tot": "09:00", "titel": "Ontbijt", "locatie": "hotel_viminale"},
         {"id": "z2", "van": "09:15", "tot": "09:30", "titel": "Wandeling naar TopBike", "route": "r_z0"},
         {"id": "z3", "van": "09:30", "tot": "13:30", "titel": "Bike fitting en veiligheidsbriefing", "locatie": "topbike"},
-        {"id": "z4", "van": "13:30", "tot": "13:45", "titel": "Fietsen inleveren en taxi terug", "vervoer": "taxi", "van_loc": "topbike", "naar_loc": "hotel_viminale", "noot": "Korte reset voor de avond."},
+        {"id": "z4", "van": "13:30", "tot": "13:45", "titel": "Fietsen inleveren en teruglopen naar het hotel", "route": "r_z0b", "noot": "Korte reset voor de avond."},
         {"id": "z5", "van": "13:45", "tot": "14:15", "titel": "Douchen / omkleden", "locatie": "hotel_viminale"},
         {"id": "z6", "van": "14:30", "tot": "16:30", "titel": "Lunch", "locatie": "ai_fienaroli", "noot": "Ongeveer 20 minuten lopen naar de stadstour."},
         {"id": "z7", "van": "17:00", "tot": "19:30", "titel": "Stadstour met gids Cris", "locatie": "piazza_di_spagna", "route": "r_z1", "locaties": ["piazza_di_spagna", "trevi", "pantheon", "saint_louis", "piazza_navona", "castel_sangelo", "terrazza_borromini"], "noot": "Verzamelen 17:00 op Piazza di Spagna, voor Babington's Tea Rooms, links van de Spaanse Trappen. Gids heeft een bordje met haar logo. Route: Spaanse Trappen, Trevifontein, Pantheon (van buiten), Saint-Louis-des-Français, Piazza Navona, de Tiber, Ponte en Castel Sant'Angelo (van buiten), via Via di Santa Maria dell'Anima naar Terrazza Borromini."},
@@ -240,11 +240,12 @@
   ],
 
   "routes": {
-    "r_z0": {"titel": "Hotel Viminale naar TopBike", "modus": "walking", "van": "hotel_viminale", "naar": "topbike", "streetview_stops": ["hotel_viminale", "topbike"]},
     "r_v1": {"titel": "Taverna Urbana naar San Clemente", "modus": "walking", "van": "taverna_urbana", "naar": "san_clemente", "streetview_stops": ["taverna_urbana", "san_clemente"]},
     "r_v2": {"titel": "San Clemente naar Colosseum", "modus": "walking", "van": "san_clemente", "naar": "colosseo", "streetview_stops": ["san_clemente", "colosseo"]},
     "r_v3": {"titel": "Colosseum, Via dei Fori Imperiali, Campidoglio", "modus": "walking", "van": "colosseo", "tussen": ["fori_imperiali"], "naar": "campidoglio", "streetview_stops": ["colosseo", "fori_imperiali", "campidoglio"]},
     "r_v4": {"titel": "Campidoglio naar Monti", "modus": "walking", "van": "campidoglio", "naar": "monti", "streetview_stops": ["campidoglio", "monti"]},
+    "r_z0": {"titel": "Hotel Viminale naar TopBike", "modus": "walking", "van": "hotel_viminale", "naar": "topbike", "streetview_stops": ["hotel_viminale", "topbike"]},
+    "r_z0b": {"titel": "TopBike naar Hotel Viminale", "modus": "walking", "van": "topbike", "naar": "hotel_viminale", "streetview_stops": ["topbike", "hotel_viminale"]},
     "r_z1": {"titel": "Stadstour: Spaanse Trappen naar Terrazza Borromini", "modus": "walking", "van": "piazza_di_spagna", "tussen": ["trevi", "pantheon", "saint_louis", "piazza_navona", "castel_sangelo"], "naar": "terrazza_borromini", "streetview_stops": ["piazza_di_spagna", "trevi", "pantheon", "saint_louis", "piazza_navona", "castel_sangelo", "terrazza_borromini"]},
     "r_z2": {"titel": "Terrazza Borromini naar Grappolo d'Oro", "modus": "walking", "van": "terrazza_borromini", "naar": "grappolo_doro", "streetview_stops": ["terrazza_borromini", "grappolo_doro"]}
   },
