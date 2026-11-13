@@ -196,7 +196,7 @@
         {"id": "v4", "van": "15:00", "tot": "15:55", "titel": "Late lunch", "locatie": "taverna_urbana"},
         {"id": "v5", "van": "15:55", "tot": "16:15", "titel": "Wandeling naar San Clemente", "route": "r_v1"},
         {"id": "v6", "van": "16:20", "tot": "17:10", "titel": "Ondergrondse lagen van Rome", "locatie": "san_clemente"},
-        {"id": "v7", "van": "17:10", "tot": "17:25", "titel": "Wandeling naar het Colosseum", "route": "r_v2", "noot": "Korte transfer te voet."},
+        {"id": "v7", "van": "17:10", "tot": "17:25", "titel": "Wandeling naar het Colosseum en kamer zoeken voor William", "route": "r_v2", "noot": "Korte wandeling. Onderweg zoeken we samen een kamer voor William."},
         {"id": "v8", "van": "17:25", "tot": "18:35", "titel": "Buitenroute klassiek Rome", "route": "r_v3", "locaties": ["colosseo", "fori_imperiali", "campidoglio"], "noot": "Geen ticketstress, wel maximaal effect in het gouden uur."},
         {"id": "v9", "van": "18:35", "tot": "19:00", "titel": "Terug naar Monti", "route": "r_v4", "noot": "Te voet."},
         {"id": "v10", "van": "19:00", "tot": "19:50", "titel": "Aperitivo", "locatie": "monti", "noot": "Staand of op terras; houd het licht."},
