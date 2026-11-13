@@ -218,7 +218,7 @@
         {"id": "z7", "van": "17:00", "tot": "19:30", "titel": "Stadstour met gids Cris", "locatie": "piazza_di_spagna", "route": "r_z1", "locaties": ["piazza_di_spagna", "trevi", "pantheon", "saint_louis", "piazza_navona", "castel_sangelo", "terrazza_borromini"], "noot": "Verzamelen 17:00 op Piazza di Spagna, voor Babington's Tea Rooms, links van de Spaanse Trappen. Gids heeft een bordje met haar logo. Route: Spaanse Trappen, Trevifontein, Pantheon (van buiten), Saint-Louis-des-Français, Piazza Navona, de Tiber, Ponte en Castel Sant'Angelo (van buiten), via Via di Santa Maria dell'Anima naar Terrazza Borromini."},
         {"id": "z8", "van": "19:30", "tot": "20:30", "titel": "Rooftop aperitivo", "locatie": "terrazza_borromini"},
         {"id": "z9", "van": "20:35", "tot": "20:45", "titel": "Korte wandeling naar het restaurant", "route": "r_z2"},
-        {"id": "z10", "van": "21:30", "tot": "24:00", "titel": "Diner", "locatie": "grappolo_doro"}
+        {"id": "z10", "van": "21:00", "tot": "24:00", "titel": "Diner", "locatie": "grappolo_doro"}
       ]
     },
     {
