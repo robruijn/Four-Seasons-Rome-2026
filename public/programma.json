@@ -191,8 +191,8 @@
       "label": "Vrijdag 13 november",
       "blokken": [
         {"id": "v1", "van": "11:55", "tot": "13:10", "titel": "Aankomst FCO", "locatie": "fco"},
-        {"id": "v2", "van": "13:15", "tot": "14:05", "titel": "4 taxi's naar hotel", "van_loc": "fco", "naar_loc": "hotel_viminale", "vervoer": "taxi"},
-        {"id": "v3", "van": "14:05", "tot": "14:35", "titel": "Bagage afgeven / opfrissen", "locatie": "hotel_viminale"},
+        {"id": "v2", "van": "13:15", "tot": "13:40", "titel": "4 taxi's naar hotel", "van_loc": "fco", "naar_loc": "hotel_viminale", "vervoer": "taxi"},
+        {"id": "v3", "van": "13:40", "tot": "13:55", "titel": "Bagage afgeven / opfrissen", "locatie": "hotel_viminale"},
         {"id": "v4", "van": "14:00", "tot": "15:55", "titel": "Late lunch", "locatie": "taverna_urbana"},
         {"id": "v5", "van": "15:55", "tot": "16:15", "titel": "Wandeling naar San Clemente", "route": "r_v1"},
         {"id": "v6", "van": "16:20", "tot": "17:10", "titel": "Ondergrondse lagen van Rome", "locatie": "san_clemente"},
