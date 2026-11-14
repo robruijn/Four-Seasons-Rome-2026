@@ -104,12 +104,11 @@
       "foto_zoekterm": "Via Sardegna Rome restaurant"
     },
     "piazza_di_spagna": {
-      "naam": "Piazza di Spagna / Spaanse Trappen (Babington's Tea Rooms)",
-      "adres": "Piazza di Spagna 23, Roma",
-      "adres_status": "Babington's uit eigen kennis, verifiëren",
-      "lat": 41.90606, "lng": 12.48232, "geo_bron": "OpenStreetMap, gecontroleerd 13-11-2026", "maps": "Babington's Tea Rooms, Piazza di Spagna 23, 00187 Roma",
+      "naam": "Spaanse Trappen (Piazza di Spagna)",
+      "adres": "Piazza di Spagna, 00187 Roma",
+      "lat": 41.90603, "lng": 12.48262, "geo_bron": "OpenStreetMap (voet van de trappen), gecontroleerd 14-11-2026", "maps": "Scalinata di Trinità dei Monti, Piazza di Spagna, 00187 Roma",
       "tekst": "De 135 treden uit de 18e eeuw verbinden het plein met de kerk Trinità dei Monti. Onderaan staat de Barcaccia, een fontein in de vorm van een schip. Zitten op de trappen is verboden en kan een boete opleveren.",
-      "praktisch": "Verzamelen om 17:00 op Piazza di Spagna, voor Babington's Tea Rooms, links van de Spaanse Trappen. De gids (Cris, Cris Roman Guide) heeft een bordje met haar logo.",
+      "praktisch": "Start van de stadstour: om 17:00 verzamelen onderaan de Spaanse Trappen, bij Babington's Tea Rooms (links van de trappen). De gids (Cris, Cris Roman Guide) heeft een bordje met haar logo.",
       "foto_zoekterm": "Spanish Steps Rome"
     },
     "trevi": {
@@ -216,7 +215,7 @@
         {"id": "z4", "van": "13:30", "tot": "14:00", "titel": "Fietsen inleveren en teruglopen naar het hotel", "route": "r_z0b", "noot": "Korte reset voor de avond."},
         {"id": "z5", "van": "14:00", "tot": "14:15", "titel": "Douchen / omkleden", "locatie": "hotel_viminale"},
         {"id": "z6", "van": "14:30", "tot": "16:30", "titel": "Lunch", "locatie": "ai_fienaroli", "noot": "Ongeveer 20 minuten lopen naar de stadstour."},
-        {"id": "z7", "van": "17:00", "tot": "19:30", "titel": "Stadstour met gids Cris", "locatie": "piazza_di_spagna", "route": "r_z1", "locaties": ["piazza_di_spagna", "trevi", "pantheon", "saint_louis", "piazza_navona", "castel_sangelo", "terrazza_borromini"], "noot": "Verzamelen 17:00 op Piazza di Spagna, voor Babington's Tea Rooms, links van de Spaanse Trappen. Gids heeft een bordje met haar logo. Route: Spaanse Trappen, Trevifontein, Pantheon (van buiten), Saint-Louis-des-Français, Piazza Navona, de Tiber, Ponte en Castel Sant'Angelo (van buiten), via Via di Santa Maria dell'Anima naar Terrazza Borromini."},
+        {"id": "z7", "van": "17:00", "tot": "19:30", "titel": "Stadstour met gids Cris", "locatie": "piazza_di_spagna", "route": "r_z1", "locaties": ["piazza_di_spagna", "trevi", "pantheon", "saint_louis", "piazza_navona", "castel_sangelo", "terrazza_borromini"], "noot": "Start bij de Spaanse Trappen: om 17:00 verzamelen onderaan de trappen, bij Babington's Tea Rooms (links). Gids heeft een bordje met haar logo. Route: Spaanse Trappen, Trevifontein, Pantheon (van buiten), Saint-Louis-des-Français, Piazza Navona, de Tiber, Ponte en Castel Sant'Angelo (van buiten), via Via di Santa Maria dell'Anima naar Terrazza Borromini."},
         {"id": "z8", "van": "19:30", "tot": "20:30", "titel": "Rooftop aperitivo", "locatie": "terrazza_borromini"},
         {"id": "z9", "van": "20:35", "tot": "20:45", "titel": "Korte wandeling naar het restaurant", "route": "r_z2"},
         {"id": "z10", "van": "21:00", "tot": "24:00", "titel": "Diner", "locatie": "grappolo_doro"}
